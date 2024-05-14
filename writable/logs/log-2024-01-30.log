@@ -1,0 +1,89 @@
+CRITICAL - 2024-01-30 01:25:04 --> ErrorException: Undefined variable $Password
+in APPPATH\Controllers\JobseekerController.php on line 160.
+ 1 APPPATH\Controllers\JobseekerController.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Password', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 160)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jsignupprocess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-01-30 02:02:36 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Config\Routes.php on line 42.
+ 1 SYSTEMPATH\CLI\Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+ERROR - 2024-01-30 02:37:06 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(81): CodeIgniter\BaseModel->first()
+#7 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jloginprocess()
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-01-30 02:37:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jobseekerlogin`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\JobseekerController.php(81): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jloginprocess()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-01-30 02:37:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `jobseekerlogin`
+WHERE `email` = \'cueto.johnlemuel.j@gmail.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `jobseekerlogin`
+WHERE `email` = \'cueto.johnlemuel.j@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jobseekerlogin`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\JobseekerController.php(81): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jloginprocess()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-01-30 02:37:06 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `jobseekerlogin`
+WHERE `email` = \'cueto.johnlemuel.j@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `jobseekerlogin`
+WHERE `email` = \'cueto.johnlemuel.j@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `jobseekerlogin`
+WHERE `email` = \'cueto.johnlemuel.j@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jobseekerlogin`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\JobseekerController.php(81): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jloginprocess()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

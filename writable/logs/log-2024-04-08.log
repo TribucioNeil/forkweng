@@ -1,0 +1,27 @@
+CRITICAL - 2024-04-08 02:43:22 --> Error: Call to a member function where() on array
+in APPPATH\Controllers\AdminController.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->employer()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-08 02:43:39 --> Error: Cannot use object of type mysqli as array
+in APPPATH\Views\admin\pages\employers.php on line 54.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/employers', [], true)
+ 4 APPPATH\Controllers\AdminController.php(95): view('admin/pages/employers', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->employer()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-08 03:27:36 --> ErrorException: require_once(D:\laragon\www\citypeso\app\../vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\JobseekerController.php on line 1276.
+ 1 APPPATH\Controllers\JobseekerController.php(1276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\laragon\\www\\citypeso\\app\\../vendor/autoload.php): Failed to open stream: No such file or directory', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 1276)
+ 2 APPPATH\Controllers\JobseekerController.php(1276): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generatePdf()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

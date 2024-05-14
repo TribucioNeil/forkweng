@@ -1,0 +1,121 @@
+<<<<<<< HEAD
+CRITICAL - 2024-04-05 13:02:30 --> ErrorException: Undefined variable $sex
+in APPPATH\Views\jobseeker\pages\profile.php on line 210.
+ 1 APPPATH\Views\jobseeker\pages\profile.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sex', 'D:\\laragon\\www\\citypeso\\app\\Views\\jobseeker\\pages\\profile.php', 210)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\jobseeker\\pages\\profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('jobseeker/pages/profile', [], true)
+ 5 APPPATH\Controllers\JobseekerController.php(146): view('jobseeker/pages/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->myprofile()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-05 13:02:45 --> ErrorException: Undefined variable $Sex
+in APPPATH\Views\jobseeker\pages\profile.php on line 210.
+ 1 APPPATH\Views\jobseeker\pages\profile.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Sex', 'D:\\laragon\\www\\citypeso\\app\\Views\\jobseeker\\pages\\profile.php', 210)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\jobseeker\\pages\\profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('jobseeker/pages/profile', [], true)
+ 5 APPPATH\Controllers\JobseekerController.php(146): view('jobseeker/pages/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->myprofile()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-04-05 14:32:32 --> mysqli_sql_exception: Unknown column 'TerminatedAbroad' in 'field list' in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `jobseek...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobseek...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobseek...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2469): CodeIgniter\Database\BaseConnection->query('UPDATE `jobseek...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(987): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\laragon\www\citypeso\system\Model.php(807): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(573): CodeIgniter\Model->update('14', Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->personalInformation()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-04-05 14:32:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'TerminatedAbroad' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2469): CodeIgniter\Database\BaseConnection->query('UPDATE `jobseekerperinfo` SET `SurName` = :SurName:, `FirstName` = :FirstName:, `MiddleName` = :MiddleName:, `Suffix` = :Suffix:, `DateOfBirth` = :DateOfBirth:, `PlaceOfBirth` = :PlaceOfBirth:, `Sex` = :Sex:, `Religion` = :Religion:, `HouseNoOrStreet` = :HouseNoOrStreet:, `CivilStatus` = :CivilStatus:, `Barangay` = :Barangay:, `MunicipalityOrCity` = :MunicipalityOrCity:, `Province` = :Province:, `TinNo` = :TinNo:, `GsisOrSssNo` = :GsisOrSssNo:, `PagibigNo` = :PagibigNo:, `PhilhealthNo` = :PhilhealthNo:, `Height` = :Height:, `EmailAddress` = :EmailAddress:, `LandlineNo` = :LandlineNo:, `CellphoneNo` = :CellphoneNo:, `Disability` = :Disability:, `EmploymentStatus` = :EmploymentStatus:, `Type` = :Type:, `TerminatedAbroad` = :TerminatedAbroad:, `ActivelyLooking` = :ActivelyLooking:, `LookingWork` = :LookingWork:, `WillingWork` = :WillingWork:, `IfNo` = :IfNo:, `Beneficiary` = :Beneficiary:, `IfYesHousehold` = :IfYesHousehold:
+WHERE `jobseekerperinfo`.`id` IN :jobseekerperinfo.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\JobseekerController.php(573): CodeIgniter\Model->update('14', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->personalInformation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-05 14:32:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'TerminatedAbroad' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobseekerperinfo` SET `SurName` = \'Familara\', `FirstName` = \'PAULYN\', `MiddleName` = \'piego\', `Suffix` = \'\', `DateOfBirth` = \'2024-04-05\', `PlaceOfBirth` = \'SUQUI, CALAPAN CITY\', `Sex` = \'female\', `Religion` = \'catholic\', `HouseNoOrStreet` = \'BLOCK 4\', `CivilStatus` = \'Single\', `Barangay` = \'SUQUI\', `MunicipalityOrCity` = \'CALAPAN CITY\', `Province` = \'ORIENTAL MINDORO\', `TinNo` = \'54645\', `GsisOrSssNo` = \'4564\', `PagibigNo` = \'2323\', `PhilhealthNo` = \'456456\', `Height` = \'5\\\'9\', `EmailAddress` = \'PAULYNFAMILARA@GMAIL.COM\', `LandlineNo` = \'6575\', `CellphoneNo` = \'09063939277\', `Disability` = \'\', `EmploymentStatus` = \'Unemployed\', `Type` = \'\', `TerminatedAbroad` = \'dsfgfg\', `ActivelyLooking` = NULL, `LookingWork` = \'\', `WillingWork` = NULL, `IfNo` = \'\', `Beneficiary` = NULL, `IfYesHousehold` = \'\'
+WHERE `jobseekerperinfo`.`id` IN (\'14\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobseekerperinfo` SET `SurName` = \'Familara\', `FirstName` = \'PAULYN\', `MiddleName` = \'piego\', `Suffix` = \'\', `DateOfBirth` = \'2024-04-05\', `PlaceOfBirth` = \'SUQUI, CALAPAN CITY\', `Sex` = \'female\', `Religion` = \'catholic\', `HouseNoOrStreet` = \'BLOCK 4\', `CivilStatus` = \'Single\', `Barangay` = \'SUQUI\', `MunicipalityOrCity` = \'CALAPAN CITY\', `Province` = \'ORIENTAL MINDORO\', `TinNo` = \'54645\', `GsisOrSssNo` = \'4564\', `PagibigNo` = \'2323\', `PhilhealthNo` = \'456456\', `Height` = \'5\\\'9\', `EmailAddress` = \'PAULYNFAMILARA@GMAIL.COM\', `LandlineNo` = \'6575\', `CellphoneNo` = \'09063939277\', `Disability` = \'\', `EmploymentStatus` = \'Unemployed\', `Type` = \'\', `TerminatedAbroad` = \'dsfgfg\', `ActivelyLooking` = NULL, `LookingWork` = \'\', `WillingWork` = NULL, `IfNo` = \'\', `Beneficiary` = NULL, `IfYesHousehold` = \'\'
+WHERE `jobseekerperinfo`.`id` IN (\'14\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2469): CodeIgniter\Database\BaseConnection->query('UPDATE `jobseekerperinfo` SET `SurName` = :SurName:, `FirstName` = :FirstName:, `MiddleName` = :MiddleName:, `Suffix` = :Suffix:, `DateOfBirth` = :DateOfBirth:, `PlaceOfBirth` = :PlaceOfBirth:, `Sex` = :Sex:, `Religion` = :Religion:, `HouseNoOrStreet` = :HouseNoOrStreet:, `CivilStatus` = :CivilStatus:, `Barangay` = :Barangay:, `MunicipalityOrCity` = :MunicipalityOrCity:, `Province` = :Province:, `TinNo` = :TinNo:, `GsisOrSssNo` = :GsisOrSssNo:, `PagibigNo` = :PagibigNo:, `PhilhealthNo` = :PhilhealthNo:, `Height` = :Height:, `EmailAddress` = :EmailAddress:, `LandlineNo` = :LandlineNo:, `CellphoneNo` = :CellphoneNo:, `Disability` = :Disability:, `EmploymentStatus` = :EmploymentStatus:, `Type` = :Type:, `TerminatedAbroad` = :TerminatedAbroad:, `ActivelyLooking` = :ActivelyLooking:, `LookingWork` = :LookingWork:, `WillingWork` = :WillingWork:, `IfNo` = :IfNo:, `Beneficiary` = :Beneficiary:, `IfYesHousehold` = :IfYesHousehold:
+WHERE `jobseekerperinfo`.`id` IN :jobseekerperinfo.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\JobseekerController.php(573): CodeIgniter\Model->update('14', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->personalInformation()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-05 14:32:33 --> [Caused by] mysqli_sql_exception: Unknown column 'TerminatedAbroad' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `jobseekerperinfo` SET `SurName` = \'Familara\', `FirstName` = \'PAULYN\', `MiddleName` = \'piego\', `Suffix` = \'\', `DateOfBirth` = \'2024-04-05\', `PlaceOfBirth` = \'SUQUI, CALAPAN CITY\', `Sex` = \'female\', `Religion` = \'catholic\', `HouseNoOrStreet` = \'BLOCK 4\', `CivilStatus` = \'Single\', `Barangay` = \'SUQUI\', `MunicipalityOrCity` = \'CALAPAN CITY\', `Province` = \'ORIENTAL MINDORO\', `TinNo` = \'54645\', `GsisOrSssNo` = \'4564\', `PagibigNo` = \'2323\', `PhilhealthNo` = \'456456\', `Height` = \'5\\\'9\', `EmailAddress` = \'PAULYNFAMILARA@GMAIL.COM\', `LandlineNo` = \'6575\', `CellphoneNo` = \'09063939277\', `Disability` = \'\', `EmploymentStatus` = \'Unemployed\', `Type` = \'\', `TerminatedAbroad` = \'dsfgfg\', `ActivelyLooking` = NULL, `LookingWork` = \'\', `WillingWork` = NULL, `IfNo` = \'\', `Beneficiary` = NULL, `IfYesHousehold` = \'\'
+WHERE `jobseekerperinfo`.`id` IN (\'14\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobseekerperinfo` SET `SurName` = \'Familara\', `FirstName` = \'PAULYN\', `MiddleName` = \'piego\', `Suffix` = \'\', `DateOfBirth` = \'2024-04-05\', `PlaceOfBirth` = \'SUQUI, CALAPAN CITY\', `Sex` = \'female\', `Religion` = \'catholic\', `HouseNoOrStreet` = \'BLOCK 4\', `CivilStatus` = \'Single\', `Barangay` = \'SUQUI\', `MunicipalityOrCity` = \'CALAPAN CITY\', `Province` = \'ORIENTAL MINDORO\', `TinNo` = \'54645\', `GsisOrSssNo` = \'4564\', `PagibigNo` = \'2323\', `PhilhealthNo` = \'456456\', `Height` = \'5\\\'9\', `EmailAddress` = \'PAULYNFAMILARA@GMAIL.COM\', `LandlineNo` = \'6575\', `CellphoneNo` = \'09063939277\', `Disability` = \'\', `EmploymentStatus` = \'Unemployed\', `Type` = \'\', `TerminatedAbroad` = \'dsfgfg\', `ActivelyLooking` = NULL, `LookingWork` = \'\', `WillingWork` = NULL, `IfNo` = \'\', `Beneficiary` = NULL, `IfYesHousehold` = \'\'
+WHERE `jobseekerperinfo`.`id` IN (\'14\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobseekerperinfo` SET `SurName` = \'Familara\', `FirstName` = \'PAULYN\', `MiddleName` = \'piego\', `Suffix` = \'\', `DateOfBirth` = \'2024-04-05\', `PlaceOfBirth` = \'SUQUI, CALAPAN CITY\', `Sex` = \'female\', `Religion` = \'catholic\', `HouseNoOrStreet` = \'BLOCK 4\', `CivilStatus` = \'Single\', `Barangay` = \'SUQUI\', `MunicipalityOrCity` = \'CALAPAN CITY\', `Province` = \'ORIENTAL MINDORO\', `TinNo` = \'54645\', `GsisOrSssNo` = \'4564\', `PagibigNo` = \'2323\', `PhilhealthNo` = \'456456\', `Height` = \'5\\\'9\', `EmailAddress` = \'PAULYNFAMILARA@GMAIL.COM\', `LandlineNo` = \'6575\', `CellphoneNo` = \'09063939277\', `Disability` = \'\', `EmploymentStatus` = \'Unemployed\', `Type` = \'\', `TerminatedAbroad` = \'dsfgfg\', `ActivelyLooking` = NULL, `LookingWork` = \'\', `WillingWork` = NULL, `IfNo` = \'\', `Beneficiary` = NULL, `IfYesHousehold` = \'\'
+WHERE `jobseekerperinfo`.`id` IN (\'14\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2469): CodeIgniter\Database\BaseConnection->query('UPDATE `jobseekerperinfo` SET `SurName` = :SurName:, `FirstName` = :FirstName:, `MiddleName` = :MiddleName:, `Suffix` = :Suffix:, `DateOfBirth` = :DateOfBirth:, `PlaceOfBirth` = :PlaceOfBirth:, `Sex` = :Sex:, `Religion` = :Religion:, `HouseNoOrStreet` = :HouseNoOrStreet:, `CivilStatus` = :CivilStatus:, `Barangay` = :Barangay:, `MunicipalityOrCity` = :MunicipalityOrCity:, `Province` = :Province:, `TinNo` = :TinNo:, `GsisOrSssNo` = :GsisOrSssNo:, `PagibigNo` = :PagibigNo:, `PhilhealthNo` = :PhilhealthNo:, `Height` = :Height:, `EmailAddress` = :EmailAddress:, `LandlineNo` = :LandlineNo:, `CellphoneNo` = :CellphoneNo:, `Disability` = :Disability:, `EmploymentStatus` = :EmploymentStatus:, `Type` = :Type:, `TerminatedAbroad` = :TerminatedAbroad:, `ActivelyLooking` = :ActivelyLooking:, `LookingWork` = :LookingWork:, `WillingWork` = :WillingWork:, `IfNo` = :IfNo:, `Beneficiary` = :Beneficiary:, `IfYesHousehold` = :IfYesHousehold:
+WHERE `jobseekerperinfo`.`id` IN :jobseekerperinfo.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\JobseekerController.php(573): CodeIgniter\Model->update('14', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->personalInformation()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+=======
+CRITICAL - 2024-04-05 11:36:49 --> ErrorException: require_once(C:\laragon\www\citypeso\app\../vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\JobseekerController.php on line 1256.
+ 1 APPPATH\Controllers\JobseekerController.php(1256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\laragon\\www\\citypeso\\app\\../vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 1256)
+ 2 APPPATH\Controllers\JobseekerController.php(1256): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generatePdf()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-05 12:16:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/pages/no_results.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/no_results.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/no_results', [], true)
+ 3 APPPATH\Controllers\AdminController.php(67): view('admin/pages/no_results')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->searchJobseekers()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-05 12:17:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/pages/no_results.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/no_results.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/no_results', [], true)
+ 3 APPPATH\Controllers\AdminController.php(67): view('admin/pages/no_results')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->searchJobseekers()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\citypeso\\public\\index.php')
+>>>>>>> 9ced74ebf84c728c2b8c54132b56dd0baf0ed808

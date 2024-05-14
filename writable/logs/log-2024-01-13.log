@@ -1,0 +1,14 @@
+CRITICAL - 2024-01-13 10:48:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "default/inc/heder.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default/inc/heder.php')
+ 2 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('default/inc/heder', null, true)
+ 3 APPPATH\Views\default\home.php(3): CodeIgniter\View\View->include('default/inc/heder')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\citypeso\\app\\Views\\default\\home.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('default/home', [], true)
+ 7 APPPATH\Controllers\JobseekerController.php(9): view('default/home')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerhome()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\citypeso\\public\\index.php')

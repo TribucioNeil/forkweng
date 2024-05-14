@@ -1,0 +1,128 @@
+ERROR - 2024-04-15 05:17:32 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'citypeso', 3306, '', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(364): CodeIgniter\BaseModel->first()
+#7 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jloginprocess()
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\citypeso\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\citypeso\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(364): CodeIgniter\BaseModel->first()
+#6 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jloginprocess()
+#7 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-04-15 05:17:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jobseekerlogin`
+WHERE `emailAddress` = :emailAddress:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\JobseekerController.php(364): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jloginprocess()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-04-15 05:18:27 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'citypeso', 3306, '', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(364): CodeIgniter\BaseModel->first()
+#7 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jloginprocess()
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\citypeso\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\citypeso\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(364): CodeIgniter\BaseModel->first()
+#6 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jloginprocess()
+#7 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-04-15 05:18:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jobseekerlogin`
+WHERE `emailAddress` = :emailAddress:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\JobseekerController.php(364): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jloginprocess()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-15 23:26:24 --> ErrorException: Undefined array key "title"
+in APPPATH\Views\default\lists.php on line 47.
+ 1 APPPATH\Views\default\lists.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'D:\\laragon\\www\\citypeso\\app\\Views\\default\\lists.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\default\\lists.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('default/lists', [], true)
+ 5 APPPATH\Controllers\JobseekerController.php(135): view('default/lists', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->joblists()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-15 23:28:32 --> ErrorException: Undefined array key "workLocation"
+in APPPATH\Controllers\JobseekerController.php on line 1346.
+ 1 APPPATH\Controllers\JobseekerController.php(1346): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "workLocation"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 1346)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->applyNowProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-15 23:29:29 --> ErrorException: Undefined array key "jobOption"
+in APPPATH\Controllers\JobseekerController.php on line 1347.
+ 1 APPPATH\Controllers\JobseekerController.php(1347): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jobOption"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 1347)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->applyNowProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-15 23:33:20 --> ErrorException: Undefined array key "salary"
+in APPPATH\Controllers\JobseekerController.php on line 1348.
+ 1 APPPATH\Controllers\JobseekerController.php(1348): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "salary"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 1348)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->applyNowProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

@@ -1,0 +1,140 @@
+CRITICAL - 2024-02-19 00:29:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 388.
+ 1 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdminController.php(231): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->approveEmployer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-19 00:32:10 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\AdminController.php on line 231.
+ 1 APPPATH\Controllers\AdminController.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 231)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->approveEmployer()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-19 00:32:28 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\AdminController.php on line 231.
+ 1 APPPATH\Controllers\AdminController.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 231)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->approveEmployer()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-19 00:35:30 --> ParseError: syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\AdminController.php on line 230.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-19 00:35:34 --> ParseError: syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\AdminController.php on line 230.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-19 11:31:43 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\default\lists.php on line 240.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('default/lists', [], true)
+ 3 APPPATH\Controllers\JobseekerController.php(42): view('default/lists', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->joblists()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-19 11:32:06 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\default\lists.php on line 535.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('default/lists', [], true)
+ 3 APPPATH\Controllers\JobseekerController.php(42): view('default/lists', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->joblists()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-19 11:33:08 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\default\lists.php on line 240.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('default/lists', [], true)
+ 3 APPPATH\Controllers\JobseekerController.php(42): view('default/lists', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->joblists()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-19 11:33:30 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\default\lists.php on line 239.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('default/lists', [], true)
+ 3 APPPATH\Controllers\JobseekerController.php(42): view('default/lists', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->joblists()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-19 11:33:31 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\default\lists.php on line 239.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('default/lists', [], true)
+ 3 APPPATH\Controllers\JobseekerController.php(42): view('default/lists', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->joblists()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-19 11:33:31 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\default\lists.php on line 239.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('default/lists', [], true)
+ 3 APPPATH\Controllers\JobseekerController.php(42): view('default/lists', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->joblists()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-19 11:33:31 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\default\lists.php on line 239.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('default/lists', [], true)
+ 3 APPPATH\Controllers\JobseekerController.php(42): view('default/lists', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->joblists()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-19 15:55:07 --> ErrorException: Undefined array key "companyAddress"
+in APPPATH\Views\admin\pages\registeredemployer.php on line 22.
+ 1 APPPATH\Views\admin\pages\registeredemployer.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "companyAddress"', 'D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\registeredemployer.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\registeredemployer.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/registeredemployer', [], true)
+ 5 APPPATH\Controllers\AdminController.php(214): view('admin/pages/registeredemployer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->viewEmployer('7')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-19 23:55:36 --> ErrorException: Undefined array key "jobId"
+in APPPATH\Views\default\lists.php on line 186.
+ 1 APPPATH\Views\default\lists.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jobId"', 'D:\\laragon\\www\\citypeso\\app\\Views\\default\\lists.php', 186)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\default\\lists.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('default/lists', [], true)
+ 5 APPPATH\Controllers\JobseekerController.php(42): view('default/lists', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->joblists()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

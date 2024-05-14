@@ -1,0 +1,8 @@
+CRITICAL - 2024-03-16 18:23:14 --> ErrorException: Undefined array key "PreferredOccu1"
+in APPPATH\Controllers\JobseekerController.php on line 1479.
+ 1 APPPATH\Controllers\JobseekerController.php(1479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PreferredOccu1"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 1479)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generatePdf()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

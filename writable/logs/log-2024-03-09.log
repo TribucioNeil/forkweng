@@ -1,0 +1,40 @@
+CRITICAL - 2024-03-09 00:38:46 --> ParseError: syntax error, unexpected token "<"
+in APPPATH\Views\default\lists.php on line 219.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('default/lists', [], true)
+ 3 APPPATH\Controllers\JobseekerController.php(54): view('default/lists', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->joblists()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-09 00:49:16 --> ParseError: syntax error, unexpected identifier "id", expecting "," or ";"
+in APPPATH\Views\default\lists.php on line 221.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('default/lists', [], true)
+ 3 APPPATH\Controllers\JobseekerController.php(67): view('default/lists', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->joblists()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-09 00:49:17 --> ParseError: syntax error, unexpected identifier "id", expecting "," or ";"
+in APPPATH\Views\default\lists.php on line 221.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('default/lists', [], true)
+ 3 APPPATH\Controllers\JobseekerController.php(67): view('default/lists', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->joblists()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-09 00:52:02 --> ParseError: syntax error, unexpected single-quoted string "">", expecting "," or ";"
+in APPPATH\Views\default\lists.php on line 224.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('default/lists', [], true)
+ 3 APPPATH\Controllers\JobseekerController.php(67): view('default/lists', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->joblists()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

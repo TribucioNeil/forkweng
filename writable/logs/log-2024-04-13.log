@@ -1,0 +1,242 @@
+CRITICAL - 2024-04-13 04:16:22 --> ErrorException: Cannot redeclare App\Controllers\JobseekerController::captcha()
+in APPPATH\Controllers\JobseekerController.php on line 442.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-13 04:16:58 --> ErrorException: imagettftext(): Invalid font filename
+in APPPATH\Controllers\JobseekerController.php on line 53.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagettftext(): Invalid font filename', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 53)
+ 2 APPPATH\Controllers\JobseekerController.php(53): imagettftext(Object(GdImage), 32, 0, 25, 35, 2570054, 'You are the one.ttf', 'c552c7')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->captcha()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 04:17:09 --> ErrorException: imagettftext(): Invalid font filename
+in APPPATH\Controllers\JobseekerController.php on line 53.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagettftext(): Invalid font filename', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 53)
+ 2 APPPATH\Controllers\JobseekerController.php(53): imagettftext(Object(GdImage), 32, 0, 25, 35, 2570054, 'You are the one.ttf', '7b43a6')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->captcha()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 04:17:46 --> ErrorException: imagettftext(): Invalid font filename
+in APPPATH\Controllers\JobseekerController.php on line 53.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagettftext(): Invalid font filename', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 53)
+ 2 APPPATH\Controllers\JobseekerController.php(53): imagettftext(Object(GdImage), 32, 0, 25, 35, 2570054, 'You are the one.ttf', '65f21d')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->captcha()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 04:19:34 --> ErrorException: imagettftext(): Invalid font filename
+in APPPATH\Controllers\JobseekerController.php on line 53.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagettftext(): Invalid font filename', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 53)
+ 2 APPPATH\Controllers\JobseekerController.php(53): imagettftext(Object(GdImage), 32, 0, 25, 35, 2570054, 'You are the one.ttf', '0173be')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->captcha()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 04:19:50 --> ErrorException: imagettftext(): Invalid font filename
+in APPPATH\Controllers\JobseekerController.php on line 53.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagettftext(): Invalid font filename', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 53)
+ 2 APPPATH\Controllers\JobseekerController.php(53): imagettftext(Object(GdImage), 32, 0, 25, 35, 2570054, 'You are the one.ttf', 'ad0f7a')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->captcha()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-04-13 04:22:15 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-04-13 04:22:16 --> 220 smtp.googlemail.com ESMTP n10-20020a170902968a00b001dda608484asm3809375plp.57 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [143.44.157.197]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK n10-20020a170902968a00b001dda608484asm3809375plp.57 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. n10-20020a170902968a00b001dda608484asm3809375plp.57 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. n10-20020a170902968a00b001dda608484asm3809375plp.57 - gsmtp
+
+quit: 221 2.0.0 closing connection n10-20020a170902968a00b001dda608484asm3809375plp.57 - gsmtp
+
+CRITICAL - 2024-04-13 04:36:11 --> ErrorException: imagettftext(): Invalid font filename
+in APPPATH\Controllers\JobseekerController.php on line 60.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagettftext(): Invalid font filename', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 60)
+ 2 APPPATH\Controllers\JobseekerController.php(60): imagettftext(Object(GdImage), 32, 0, 25, 35, 2570054, 'YourFont.ttf', '491c39')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generateCaptchaImage()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 04:36:13 --> ErrorException: imagettftext(): Invalid font filename
+in APPPATH\Controllers\JobseekerController.php on line 60.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagettftext(): Invalid font filename', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 60)
+ 2 APPPATH\Controllers\JobseekerController.php(60): imagettftext(Object(GdImage), 32, 0, 25, 35, 2570054, 'YourFont.ttf', 'f191f8')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generateCaptchaImage()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 04:40:37 --> ErrorException: imagettftext(): Invalid font filename
+in APPPATH\Controllers\JobseekerController.php on line 60.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagettftext(): Invalid font filename', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 60)
+ 2 APPPATH\Controllers\JobseekerController.php(60): imagettftext(Object(GdImage), 32, 0, 25, 35, 2570054, 'YourFont.ttf', 'ed3f19')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generateCaptchaImage()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 04:41:24 --> ErrorException: imagettftext(): Invalid font filename
+in APPPATH\Controllers\JobseekerController.php on line 60.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagettftext(): Invalid font filename', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 60)
+ 2 APPPATH\Controllers\JobseekerController.php(60): imagettftext(Object(GdImage), 32, 0, 25, 35, 2570054, 'YourFont.ttf', '25dfd2')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generateCaptchaImage()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 04:41:31 --> ErrorException: imagettftext(): Invalid font filename
+in APPPATH\Controllers\JobseekerController.php on line 60.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagettftext(): Invalid font filename', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 60)
+ 2 APPPATH\Controllers\JobseekerController.php(60): imagettftext(Object(GdImage), 32, 0, 25, 35, 2570054, 'YourFont.ttf', 'a19438')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generateCaptchaImage()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 04:41:32 --> ErrorException: imagettftext(): Invalid font filename
+in APPPATH\Controllers\JobseekerController.php on line 60.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagettftext(): Invalid font filename', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 60)
+ 2 APPPATH\Controllers\JobseekerController.php(60): imagettftext(Object(GdImage), 32, 0, 25, 35, 2570054, 'YourFont.ttf', 'd6343b')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generateCaptchaImage()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 04:41:34 --> ErrorException: imagettftext(): Invalid font filename
+in APPPATH\Controllers\JobseekerController.php on line 60.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagettftext(): Invalid font filename', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 60)
+ 2 APPPATH\Controllers\JobseekerController.php(60): imagettftext(Object(GdImage), 32, 0, 25, 35, 2570054, 'YourFont.ttf', 'ac66e2')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generateCaptchaImage()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 04:44:23 --> ErrorException: imagettftext(): Invalid font filename
+in APPPATH\Controllers\JobseekerController.php on line 69.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagettftext(): Invalid font filename', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 69)
+ 2 APPPATH\Controllers\JobseekerController.php(69): imagettftext(Object(GdImage), 32, 0, 25, 35, 0, 'https://fonts.googleapis.com/css2?family=Roboto', 'fc1be2')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generateCaptchaImage()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 04:44:25 --> ErrorException: imagettftext(): Invalid font filename
+in APPPATH\Controllers\JobseekerController.php on line 69.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagettftext(): Invalid font filename', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 69)
+ 2 APPPATH\Controllers\JobseekerController.php(69): imagettftext(Object(GdImage), 32, 0, 25, 35, 0, 'https://fonts.googleapis.com/css2?family=Roboto', '686db2')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generateCaptchaImage()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 04:44:25 --> ErrorException: imagettftext(): Invalid font filename
+in APPPATH\Controllers\JobseekerController.php on line 69.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagettftext(): Invalid font filename', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 69)
+ 2 APPPATH\Controllers\JobseekerController.php(69): imagettftext(Object(GdImage), 32, 0, 25, 35, 0, 'https://fonts.googleapis.com/css2?family=Roboto', '7e1f6d')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generateCaptchaImage()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 04:44:26 --> ErrorException: imagettftext(): Invalid font filename
+in APPPATH\Controllers\JobseekerController.php on line 69.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagettftext(): Invalid font filename', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 69)
+ 2 APPPATH\Controllers\JobseekerController.php(69): imagettftext(Object(GdImage), 32, 0, 25, 35, 0, 'https://fonts.googleapis.com/css2?family=Roboto', 'a8998b')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generateCaptchaImage()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 04:53:26 --> ErrorException: imagettftext(): Invalid font filename
+in APPPATH\Controllers\JobseekerController.php on line 54.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagettftext(): Invalid font filename', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 54)
+ 2 APPPATH\Controllers\JobseekerController.php(54): imagettftext(Object(GdImage), 32, 0, 25, 35, 2570054, 'You are the one.ttf', '3b31f8')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->captcha()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 04:53:41 --> ErrorException: imagettftext(): Invalid font filename
+in APPPATH\Controllers\JobseekerController.php on line 54.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagettftext(): Invalid font filename', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 54)
+ 2 APPPATH\Controllers\JobseekerController.php(54): imagettftext(Object(GdImage), 32, 0, 25, 35, 2570054, 'You are the one.ttf', 'faccb8')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->captcha()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 04:54:28 --> ErrorException: imagettftext(): Invalid font filename
+in APPPATH\Controllers\JobseekerController.php on line 54.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagettftext(): Invalid font filename', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 54)
+ 2 APPPATH\Controllers\JobseekerController.php(54): imagettftext(Object(GdImage), 32, 0, 25, 35, 2570054, 'You are the one.ttf', '05d089')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->captcha()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 05:04:59 --> ParseError: syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\default\jobseeker\jsignup.php on line 49.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('default/jobseeker/jsignup', [], true)
+ 3 APPPATH\Controllers\JobseekerController.php(156): view('default/jobseeker/jsignup')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jsignup()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 07:08:53 --> ErrorException: Undefined array key "emailAddress"
+in APPPATH\Controllers\JobseekerController.php on line 433.
+ 1 APPPATH\Controllers\JobseekerController.php(433): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "emailAddress"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 433)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jverifyemail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 07:19:49 --> ErrorException: Undefined array key "activationKey"
+in APPPATH\Controllers\JobseekerController.php on line 407.
+ 1 APPPATH\Controllers\JobseekerController.php(407): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "activationKey"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 407)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jresendemail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 07:20:39 --> ErrorException: Undefined array key "activationKey"
+in APPPATH\Controllers\JobseekerController.php on line 407.
+ 1 APPPATH\Controllers\JobseekerController.php(407): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "activationKey"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 407)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jresendemail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-13 12:26:23 --> ParseError: syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\EmployerController.php on line 325.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\EmployerController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployerController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployerController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\EmployerController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

@@ -1,0 +1,355 @@
+CRITICAL - 2024-02-05 00:20:39 --> ErrorException: Undefined property: App\Controllers\AdminController::$AdminLoginModel
+in APPPATH\Controllers\AdminController.php on line 83.
+ 1 APPPATH\Controllers\AdminController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$AdminLoginModel', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->adminLoginProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 00:21:26 --> CodeIgniter\Exceptions\ModelException: "App\Models\AdminLoginModel" model class does not specify a Primary Key.
+in SYSTEMPATH\Model.php on line 652.
+ 1 SYSTEMPATH\Model.php(652): CodeIgniter\Exceptions\ModelException::forNoPrimaryKey('App\\Models\\AdminLoginModel')
+ 2 SYSTEMPATH\Model.php(864): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\AdminController.php(83): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->adminLoginProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-05 00:25:44 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 D:\laragon\www\citypeso\app\Controllers\AdminController.php(83): CodeIgniter\BaseModel->first()
+#7 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\AdminController->adminLoginProcess()
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-02-05 00:25:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `adminlogin`
+WHERE `email` IS NULL
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\AdminController.php(83): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->adminLoginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 00:25:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `adminlogin`
+WHERE `email` IS NULL
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `adminlogin`
+WHERE `email` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `adminlogin`
+WHERE `email` IS NULL
+ LIMIT 1', [], false)
+ 4 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\AdminController.php(83): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->adminLoginProcess()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 00:25:44 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `adminlogin`
+WHERE `email` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `adminlogin`
+WHERE `email` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `adminlogin`
+WHERE `email` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `adminlogin`
+WHERE `email` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AdminController.php(83): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->adminLoginProcess()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 00:27:18 --> ErrorException: Undefined property: App\Controllers\AdminController::$session
+in APPPATH\Controllers\AdminController.php on line 97.
+ 1 APPPATH\Controllers\AdminController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$session', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->adminLoginProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 00:37:35 --> ErrorException: Array to string conversion
+in APPPATH\Views\admin\pages\login.php on line 32.
+ 1 APPPATH\Views\admin\pages\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\login.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/login', [], true)
+ 5 APPPATH\Controllers\AdminController.php(76): view('admin/pages/login')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->adminlogin()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 00:38:25 --> ErrorException: Array to string conversion
+in APPPATH\Views\admin\pages\login.php on line 32.
+ 1 APPPATH\Views\admin\pages\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\login.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/login', [], true)
+ 5 APPPATH\Controllers\AdminController.php(76): view('admin/pages/login')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->adminlogin()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 00:44:45 --> ParseError: syntax error, unexpected token ","
+in APPPATH\Controllers\AdminController.php on line 87.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 00:47:46 --> ErrorException: Undefined array key "password"
+in APPPATH\Controllers\AdminController.php on line 88.
+ 1 APPPATH\Controllers\AdminController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->adminLoginProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 00:49:23 --> ErrorException: Undefined array key "password"
+in APPPATH\Controllers\AdminController.php on line 88.
+ 1 APPPATH\Controllers\AdminController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->adminLoginProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 00:51:48 --> ErrorException: Undefined array key "password"
+in APPPATH\Controllers\AdminController.php on line 88.
+ 1 APPPATH\Controllers\AdminController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->adminLoginProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 00:51:53 --> ErrorException: Undefined array key "password"
+in APPPATH\Controllers\AdminController.php on line 88.
+ 1 APPPATH\Controllers\AdminController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->adminLoginProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 00:52:11 --> ErrorException: Undefined array key "password"
+in APPPATH\Controllers\AdminController.php on line 88.
+ 1 APPPATH\Controllers\AdminController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->adminLoginProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 00:54:16 --> ErrorException: Undefined array key "password"
+in APPPATH\Controllers\AdminController.php on line 87.
+ 1 APPPATH\Controllers\AdminController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->adminLoginProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 00:54:21 --> ErrorException: Undefined array key "password"
+in APPPATH\Controllers\AdminController.php on line 87.
+ 1 APPPATH\Controllers\AdminController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->adminLoginProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 01:09:34 --> ErrorException: Undefined array key "password"
+in APPPATH\Controllers\AdminController.php on line 88.
+ 1 APPPATH\Controllers\AdminController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->adminLoginProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 01:11:04 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Controllers\AdminController.php on line 101.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 01:11:06 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Controllers\AdminController.php on line 101.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 01:11:42 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Controllers\AdminController.php on line 101.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 01:12:04 --> ErrorException: Undefined array key "password"
+in APPPATH\Controllers\AdminController.php on line 86.
+ 1 APPPATH\Controllers\AdminController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->adminLoginProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 01:12:58 --> ErrorException: Undefined array key "password"
+in APPPATH\Controllers\AdminController.php on line 86.
+ 1 APPPATH\Controllers\AdminController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->adminLoginProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 01:13:43 --> ErrorException: Undefined array key "password"
+in APPPATH\Controllers\AdminController.php on line 86.
+ 1 APPPATH\Controllers\AdminController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->adminLoginProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 16:22:47 --> ParseError: syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\EmployerController.php on line 58.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\EmployerController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployerController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployerController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\EmployerController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 16:22:48 --> ParseError: syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\EmployerController.php on line 58.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\EmployerController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployerController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployerController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\EmployerController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 16:26:49 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\JobseekerController.php on line 137.
+ 1 APPPATH\Controllers\JobseekerController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jresendemail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 16:28:52 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\JobseekerController.php on line 137.
+ 1 APPPATH\Controllers\JobseekerController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jresendemail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 16:31:41 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\JobseekerController.php on line 137.
+ 1 APPPATH\Controllers\JobseekerController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jresendemail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 16:32:02 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\JobseekerController.php on line 137.
+ 1 APPPATH\Controllers\JobseekerController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jresendemail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 16:32:04 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\EmployerController.php on line 138.
+ 1 APPPATH\Controllers\EmployerController.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\EmployerController.php', 138)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerVerifyEmail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 16:32:55 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\JobseekerController.php on line 137.
+ 1 APPPATH\Controllers\JobseekerController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jresendemail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 16:34:55 --> ErrorException: Undefined array key "ActivationKey"
+in APPPATH\Controllers\EmployerController.php on line 104.
+ 1 APPPATH\Controllers\EmployerController.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ActivationKey"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\EmployerController.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerResend()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 16:38:26 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\EmployerController.php on line 104.
+ 1 APPPATH\Controllers\EmployerController.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\EmployerController.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerResend()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 16:38:28 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\EmployerController.php on line 138.
+ 1 APPPATH\Controllers\EmployerController.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\EmployerController.php', 138)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerVerifyEmail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-05 16:38:29 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\EmployerController.php on line 138.
+ 1 APPPATH\Controllers\EmployerController.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\EmployerController.php', 138)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerVerifyEmail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

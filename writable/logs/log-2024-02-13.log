@@ -1,0 +1,36 @@
+CRITICAL - 2024-02-13 02:25:10 --> ErrorException: Undefined variable $jobPosts
+in APPPATH\Controllers\EmployerController.php on line 33.
+ 1 APPPATH\Controllers\EmployerController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jobPosts', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\EmployerController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerjobs()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-13 02:25:41 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\employer\pages\joblist.php on line 115.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/joblist', [], true)
+ 3 APPPATH\Controllers\EmployerController.php(33): view('employer/pages/joblist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerjobs()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-13 13:31:12 --> ErrorException: Undefined variable $employerData
+in APPPATH\Controllers\EmployerController.php on line 398.
+ 1 APPPATH\Controllers\EmployerController.php(398): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employerData', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\EmployerController.php', 398)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->updateJobPost()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-13 13:31:31 --> TypeError: CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1804.
+ 1 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray('12', 'update')
+ 2 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], '12')
+ 3 APPPATH\Controllers\EmployerController.php(400): CodeIgniter\Model->update([...], '12')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->updateJobPost()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

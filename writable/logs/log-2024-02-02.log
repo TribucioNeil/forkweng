@@ -1,0 +1,805 @@
+ERROR - 2024-02-02 00:00:09 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-02 00:00:09 --> 220 smtp.googlemail.com ESMTP fe18-20020a056a002f1200b006dde10a12b6sm306377pfb.211 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [143.44.157.82]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK fe18-20020a056a002f1200b006dde10a12b6sm306377pfb.211 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. fe18-20020a056a002f1200b006dde10a12b6sm306377pfb.211 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. fe18-20020a056a002f1200b006dde10a12b6sm306377pfb.211 - gsmtp
+
+quit: 221 2.0.0 closing connection fe18-20020a056a002f1200b006dde10a12b6sm306377pfb.211 - gsmtp
+
+ERROR - 2024-02-02 00:02:03 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-02 00:02:03 --> 220 smtp.googlemail.com ESMTP oe17-20020a17090b395100b002963d0c4ac1sm159757pjb.24 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [143.44.157.82]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK oe17-20020a17090b395100b002963d0c4ac1sm159757pjb.24 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. oe17-20020a17090b395100b002963d0c4ac1sm159757pjb.24 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. oe17-20020a17090b395100b002963d0c4ac1sm159757pjb.24 - gsmtp
+
+quit: 221 2.0.0 closing connection oe17-20020a17090b395100b002963d0c4ac1sm159757pjb.24 - gsmtp
+
+ERROR - 2024-02-02 00:02:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-02 00:02:47 --> 220 smtp.googlemail.com ESMTP lb12-20020a170902fa4c00b001d910f0ac3bsm368102plb.246 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [143.44.157.82]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK lb12-20020a170902fa4c00b001d910f0ac3bsm368102plb.246 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. lb12-20020a170902fa4c00b001d910f0ac3bsm368102plb.246 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. lb12-20020a170902fa4c00b001d910f0ac3bsm368102plb.246 - gsmtp
+
+quit: 221 2.0.0 closing connection lb12-20020a170902fa4c00b001d910f0ac3bsm368102plb.246 - gsmtp
+
+ERROR - 2024-02-02 00:05:55 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-02 00:05:55 --> 220 smtp.googlemail.com ESMTP nk24-20020a17090b195800b00295f31c3109sm183677pjb.0 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [143.44.157.82]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK nk24-20020a17090b195800b00295f31c3109sm183677pjb.0 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. nk24-20020a17090b195800b00295f31c3109sm183677pjb.0 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. nk24-20020a17090b195800b00295f31c3109sm183677pjb.0 - gsmtp
+
+quit: 221 2.0.0 closing connection nk24-20020a17090b195800b00295f31c3109sm183677pjb.0 - gsmtp
+
+ERROR - 2024-02-02 00:07:13 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-02 00:07:13 --> 220 smtp.googlemail.com ESMTP p19-20020a170902e35300b001d8d04472absm373597plc.154 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [143.44.157.82]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK p19-20020a170902e35300b001d8d04472absm373597plc.154 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. p19-20020a170902e35300b001d8d04472absm373597plc.154 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. p19-20020a170902e35300b001d8d04472absm373597plc.154 - gsmtp
+
+quit: 221 2.0.0 closing connection p19-20020a170902e35300b001d8d04472absm373597plc.154 - gsmtp
+
+ERROR - 2024-02-02 00:08:58 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-02 00:08:58 --> 220 smtp.googlemail.com ESMTP x30-20020a056a00189e00b006dde27853afsm322621pfh.113 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [143.44.157.82]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK x30-20020a056a00189e00b006dde27853afsm322621pfh.113 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. x30-20020a056a00189e00b006dde27853afsm322621pfh.113 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. x30-20020a056a00189e00b006dde27853afsm322621pfh.113 - gsmtp
+
+quit: 221 2.0.0 closing connection x30-20020a056a00189e00b006dde27853afsm322621pfh.113 - gsmtp
+
+ERROR - 2024-02-02 00:10:19 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in D:\laragon\www\citypeso\system\Email\Email.php:1890
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'D:\\laragon\\www\\...', 1890)
+#1 D:\laragon\www\citypeso\system\Email\Email.php(1890): fsockopen('ssl://smtp.goog...', 587, NULL, NULL, 60)
+#2 D:\laragon\www\citypeso\system\Email\Email.php(1798): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\laragon\www\citypeso\system\Email\Email.php(1683): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\laragon\www\citypeso\system\Email\Email.php(1577): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(187): CodeIgniter\Email\Email->send()
+#6 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jsignupprocess()
+#7 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#11 {main}
+ERROR - 2024-02-02 00:10:19 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-02 00:10:19 --> 
+ERROR - 2024-02-02 00:10:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-02 00:10:34 --> 220 smtp.googlemail.com ESMTP nh7-20020a17090b364700b002963cab9e2asm186830pjb.2 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [143.44.157.82]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK nh7-20020a17090b364700b002963cab9e2asm186830pjb.2 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. nh7-20020a17090b364700b002963cab9e2asm186830pjb.2 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. nh7-20020a17090b364700b002963cab9e2asm186830pjb.2 - gsmtp
+
+quit: 221 2.0.0 closing connection nh7-20020a17090b364700b002963cab9e2asm186830pjb.2 - gsmtp
+
+ERROR - 2024-02-02 00:11:33 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in D:\laragon\www\citypeso\system\Email\Email.php:1890
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'D:\\laragon\\www\\...', 1890)
+#1 D:\laragon\www\citypeso\system\Email\Email.php(1890): fsockopen('ssl://smtp.goog...', 587, NULL, NULL, 60)
+#2 D:\laragon\www\citypeso\system\Email\Email.php(1798): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\laragon\www\citypeso\system\Email\Email.php(1683): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\laragon\www\citypeso\system\Email\Email.php(1577): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(187): CodeIgniter\Email\Email->send()
+#6 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jsignupprocess()
+#7 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#11 {main}
+ERROR - 2024-02-02 00:11:33 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-02 00:11:33 --> 
+ERROR - 2024-02-02 00:11:49 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-02 00:11:49 --> 220 smtp.googlemail.com ESMTP im23-20020a170902bb1700b001d6f7875f57sm393160plb.162 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [143.44.157.82]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK im23-20020a170902bb1700b001d6f7875f57sm393160plb.162 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. im23-20020a170902bb1700b001d6f7875f57sm393160plb.162 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. im23-20020a170902bb1700b001d6f7875f57sm393160plb.162 - gsmtp
+
+quit: 221 2.0.0 closing connection im23-20020a170902bb1700b001d6f7875f57sm393160plb.162 - gsmtp
+
+ERROR - 2024-02-02 00:14:50 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-02 00:14:50 --> 220 smtp.googlemail.com ESMTP ss7-20020a17090b2ec700b002963804ec72sm288702pjb.2 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [143.44.157.82]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK ss7-20020a17090b2ec700b002963804ec72sm288702pjb.2 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. ss7-20020a17090b2ec700b002963804ec72sm288702pjb.2 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. ss7-20020a17090b2ec700b002963804ec72sm288702pjb.2 - gsmtp
+
+quit: 221 2.0.0 closing connection ss7-20020a17090b2ec700b002963804ec72sm288702pjb.2 - gsmtp
+
+ERROR - 2024-02-02 00:19:30 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-02 00:19:30 --> 220 smtp.googlemail.com ESMTP mq3-20020a170902fd4300b001d8fc81611asm376125plb.306 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [143.44.157.82]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK mq3-20020a170902fd4300b001d8fc81611asm376125plb.306 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. mq3-20020a170902fd4300b001d8fc81611asm376125plb.306 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. mq3-20020a170902fd4300b001d8fc81611asm376125plb.306 - gsmtp
+
+quit: 221 2.0.0 closing connection mq3-20020a170902fd4300b001d8fc81611asm376125plb.306 - gsmtp
+
+ERROR - 2024-02-02 10:38:48 --> mysqli_sql_exception: Column 'Sex' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jo...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(296): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->personalInformation()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-02 10:38:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'Sex' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerperinfo` (`SurName`, `FirstName`, `MiddleName`, `Suffix`, `DateOfBirth`, `PlaceOfBirth`, `Sex`, `PresentAddress`, `Religion`, `HouseNoOrStreet`, `CivilStatus`, `Barangay`, `MunicipalityOrCity`, `Province`, `TinNo`, `GsisOrSssNo`, `PagibigNo`, `PhilhealthNo`, `Height`, `EmailAddress`, `LandlineNo`, `CellphoneNo`, `Disability`, `EmploymentStatus`, `Type`, `ActivelyLooking`, `LookingWork`, `WillingWork`, `IfNo`, `Beneficiary`, `IfYesHousehold`) VALUES (:SurName:, :FirstName:, :MiddleName:, :Suffix:, :DateOfBirth:, :PlaceOfBirth:, :Sex:, :PresentAddress:, :Religion:, :HouseNoOrStreet:, :CivilStatus:, :Barangay:, :MunicipalityOrCity:, :Province:, :TinNo:, :GsisOrSssNo:, :PagibigNo:, :PhilhealthNo:, :Height:, :EmailAddress:, :LandlineNo:, :CellphoneNo:, :Disability:, :EmploymentStatus:, :Type:, :ActivelyLooking:, :LookingWork:, :WillingWork:, :IfNo:, :Beneficiary:, :IfYesHousehold:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\JobseekerController.php(296): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->personalInformation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 10:38:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'Sex' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerperinfo` (`SurName`, `FirstName`, `MiddleName`, `Suffix`, `DateOfBirth`, `PlaceOfBirth`, `Sex`, `PresentAddress`, `Religion`, `HouseNoOrStreet`, `CivilStatus`, `Barangay`, `MunicipalityOrCity`, `Province`, `TinNo`, `GsisOrSssNo`, `PagibigNo`, `PhilhealthNo`, `Height`, `EmailAddress`, `LandlineNo`, `CellphoneNo`, `Disability`, `EmploymentStatus`, `Type`, `ActivelyLooking`, `LookingWork`, `WillingWork`, `IfNo`, `Beneficiary`, `IfYesHousehold`) VALUES (\'Cueto\', \'\', \'\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'sfd\', \'Unemployed\', \'Students\', \'No\', \'\', NULL, \'\', \'No\', \'fgd\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerperinfo` (`SurName`, `FirstName`, `MiddleName`, `Suffix`, `DateOfBirth`, `PlaceOfBirth`, `Sex`, `PresentAddress`, `Religion`, `HouseNoOrStreet`, `CivilStatus`, `Barangay`, `MunicipalityOrCity`, `Province`, `TinNo`, `GsisOrSssNo`, `PagibigNo`, `PhilhealthNo`, `Height`, `EmailAddress`, `LandlineNo`, `CellphoneNo`, `Disability`, `EmploymentStatus`, `Type`, `ActivelyLooking`, `LookingWork`, `WillingWork`, `IfNo`, `Beneficiary`, `IfYesHousehold`) VALUES (\'Cueto\', \'\', \'\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'sfd\', \'Unemployed\', \'Students\', \'No\', \'\', NULL, \'\', \'No\', \'fgd\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerperinfo` (`SurName`, `FirstName`, `MiddleName`, `Suffix`, `DateOfBirth`, `PlaceOfBirth`, `Sex`, `PresentAddress`, `Religion`, `HouseNoOrStreet`, `CivilStatus`, `Barangay`, `MunicipalityOrCity`, `Province`, `TinNo`, `GsisOrSssNo`, `PagibigNo`, `PhilhealthNo`, `Height`, `EmailAddress`, `LandlineNo`, `CellphoneNo`, `Disability`, `EmploymentStatus`, `Type`, `ActivelyLooking`, `LookingWork`, `WillingWork`, `IfNo`, `Beneficiary`, `IfYesHousehold`) VALUES (:SurName:, :FirstName:, :MiddleName:, :Suffix:, :DateOfBirth:, :PlaceOfBirth:, :Sex:, :PresentAddress:, :Religion:, :HouseNoOrStreet:, :CivilStatus:, :Barangay:, :MunicipalityOrCity:, :Province:, :TinNo:, :GsisOrSssNo:, :PagibigNo:, :PhilhealthNo:, :Height:, :EmailAddress:, :LandlineNo:, :CellphoneNo:, :Disability:, :EmploymentStatus:, :Type:, :ActivelyLooking:, :LookingWork:, :WillingWork:, :IfNo:, :Beneficiary:, :IfYesHousehold:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\JobseekerController.php(296): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->personalInformation()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 10:38:48 --> [Caused by] mysqli_sql_exception: Column 'Sex' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jobseekerperinfo` (`SurName`, `FirstName`, `MiddleName`, `Suffix`, `DateOfBirth`, `PlaceOfBirth`, `Sex`, `PresentAddress`, `Religion`, `HouseNoOrStreet`, `CivilStatus`, `Barangay`, `MunicipalityOrCity`, `Province`, `TinNo`, `GsisOrSssNo`, `PagibigNo`, `PhilhealthNo`, `Height`, `EmailAddress`, `LandlineNo`, `CellphoneNo`, `Disability`, `EmploymentStatus`, `Type`, `ActivelyLooking`, `LookingWork`, `WillingWork`, `IfNo`, `Beneficiary`, `IfYesHousehold`) VALUES (\'Cueto\', \'\', \'\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'sfd\', \'Unemployed\', \'Students\', \'No\', \'\', NULL, \'\', \'No\', \'fgd\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerperinfo` (`SurName`, `FirstName`, `MiddleName`, `Suffix`, `DateOfBirth`, `PlaceOfBirth`, `Sex`, `PresentAddress`, `Religion`, `HouseNoOrStreet`, `CivilStatus`, `Barangay`, `MunicipalityOrCity`, `Province`, `TinNo`, `GsisOrSssNo`, `PagibigNo`, `PhilhealthNo`, `Height`, `EmailAddress`, `LandlineNo`, `CellphoneNo`, `Disability`, `EmploymentStatus`, `Type`, `ActivelyLooking`, `LookingWork`, `WillingWork`, `IfNo`, `Beneficiary`, `IfYesHousehold`) VALUES (\'Cueto\', \'\', \'\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'sfd\', \'Unemployed\', \'Students\', \'No\', \'\', NULL, \'\', \'No\', \'fgd\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerperinfo` (`SurName`, `FirstName`, `MiddleName`, `Suffix`, `DateOfBirth`, `PlaceOfBirth`, `Sex`, `PresentAddress`, `Religion`, `HouseNoOrStreet`, `CivilStatus`, `Barangay`, `MunicipalityOrCity`, `Province`, `TinNo`, `GsisOrSssNo`, `PagibigNo`, `PhilhealthNo`, `Height`, `EmailAddress`, `LandlineNo`, `CellphoneNo`, `Disability`, `EmploymentStatus`, `Type`, `ActivelyLooking`, `LookingWork`, `WillingWork`, `IfNo`, `Beneficiary`, `IfYesHousehold`) VALUES (\'Cueto\', \'\', \'\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'sfd\', \'Unemployed\', \'Students\', \'No\', \'\', NULL, \'\', \'No\', \'fgd\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerperinfo` (`SurName`, `FirstName`, `MiddleName`, `Suffix`, `DateOfBirth`, `PlaceOfBirth`, `Sex`, `PresentAddress`, `Religion`, `HouseNoOrStreet`, `CivilStatus`, `Barangay`, `MunicipalityOrCity`, `Province`, `TinNo`, `GsisOrSssNo`, `PagibigNo`, `PhilhealthNo`, `Height`, `EmailAddress`, `LandlineNo`, `CellphoneNo`, `Disability`, `EmploymentStatus`, `Type`, `ActivelyLooking`, `LookingWork`, `WillingWork`, `IfNo`, `Beneficiary`, `IfYesHousehold`) VALUES (:SurName:, :FirstName:, :MiddleName:, :Suffix:, :DateOfBirth:, :PlaceOfBirth:, :Sex:, :PresentAddress:, :Religion:, :HouseNoOrStreet:, :CivilStatus:, :Barangay:, :MunicipalityOrCity:, :Province:, :TinNo:, :GsisOrSssNo:, :PagibigNo:, :PhilhealthNo:, :Height:, :EmailAddress:, :LandlineNo:, :CellphoneNo:, :Disability:, :EmploymentStatus:, :Type:, :ActivelyLooking:, :LookingWork:, :WillingWork:, :IfNo:, :Beneficiary:, :IfYesHousehold:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\JobseekerController.php(296): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->personalInformation()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-02 10:39:08 --> mysqli_sql_exception: Column 'CivilStatus' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jo...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(296): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->personalInformation()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-02 10:39:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'CivilStatus' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerperinfo` (`SurName`, `FirstName`, `MiddleName`, `Suffix`, `DateOfBirth`, `PlaceOfBirth`, `Sex`, `PresentAddress`, `Religion`, `HouseNoOrStreet`, `CivilStatus`, `Barangay`, `MunicipalityOrCity`, `Province`, `TinNo`, `GsisOrSssNo`, `PagibigNo`, `PhilhealthNo`, `Height`, `EmailAddress`, `LandlineNo`, `CellphoneNo`, `Disability`, `EmploymentStatus`, `Type`, `ActivelyLooking`, `LookingWork`, `WillingWork`, `IfNo`, `Beneficiary`, `IfYesHousehold`) VALUES (:SurName:, :FirstName:, :MiddleName:, :Suffix:, :DateOfBirth:, :PlaceOfBirth:, :Sex:, :PresentAddress:, :Religion:, :HouseNoOrStreet:, :CivilStatus:, :Barangay:, :MunicipalityOrCity:, :Province:, :TinNo:, :GsisOrSssNo:, :PagibigNo:, :PhilhealthNo:, :Height:, :EmailAddress:, :LandlineNo:, :CellphoneNo:, :Disability:, :EmploymentStatus:, :Type:, :ActivelyLooking:, :LookingWork:, :WillingWork:, :IfNo:, :Beneficiary:, :IfYesHousehold:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\JobseekerController.php(296): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->personalInformation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 10:39:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'CivilStatus' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerperinfo` (`SurName`, `FirstName`, `MiddleName`, `Suffix`, `DateOfBirth`, `PlaceOfBirth`, `Sex`, `PresentAddress`, `Religion`, `HouseNoOrStreet`, `CivilStatus`, `Barangay`, `MunicipalityOrCity`, `Province`, `TinNo`, `GsisOrSssNo`, `PagibigNo`, `PhilhealthNo`, `Height`, `EmailAddress`, `LandlineNo`, `CellphoneNo`, `Disability`, `EmploymentStatus`, `Type`, `ActivelyLooking`, `LookingWork`, `WillingWork`, `IfNo`, `Beneficiary`, `IfYesHousehold`) VALUES (\'Cueto\', \'\', \'\', \'\', \'\', \'\', \'male\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'sfd\', \'Unemployed\', \'Students\', \'No\', \'\', NULL, \'\', \'No\', \'fgd\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerperinfo` (`SurName`, `FirstName`, `MiddleName`, `Suffix`, `DateOfBirth`, `PlaceOfBirth`, `Sex`, `PresentAddress`, `Religion`, `HouseNoOrStreet`, `CivilStatus`, `Barangay`, `MunicipalityOrCity`, `Province`, `TinNo`, `GsisOrSssNo`, `PagibigNo`, `PhilhealthNo`, `Height`, `EmailAddress`, `LandlineNo`, `CellphoneNo`, `Disability`, `EmploymentStatus`, `Type`, `ActivelyLooking`, `LookingWork`, `WillingWork`, `IfNo`, `Beneficiary`, `IfYesHousehold`) VALUES (\'Cueto\', \'\', \'\', \'\', \'\', \'\', \'male\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'sfd\', \'Unemployed\', \'Students\', \'No\', \'\', NULL, \'\', \'No\', \'fgd\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerperinfo` (`SurName`, `FirstName`, `MiddleName`, `Suffix`, `DateOfBirth`, `PlaceOfBirth`, `Sex`, `PresentAddress`, `Religion`, `HouseNoOrStreet`, `CivilStatus`, `Barangay`, `MunicipalityOrCity`, `Province`, `TinNo`, `GsisOrSssNo`, `PagibigNo`, `PhilhealthNo`, `Height`, `EmailAddress`, `LandlineNo`, `CellphoneNo`, `Disability`, `EmploymentStatus`, `Type`, `ActivelyLooking`, `LookingWork`, `WillingWork`, `IfNo`, `Beneficiary`, `IfYesHousehold`) VALUES (:SurName:, :FirstName:, :MiddleName:, :Suffix:, :DateOfBirth:, :PlaceOfBirth:, :Sex:, :PresentAddress:, :Religion:, :HouseNoOrStreet:, :CivilStatus:, :Barangay:, :MunicipalityOrCity:, :Province:, :TinNo:, :GsisOrSssNo:, :PagibigNo:, :PhilhealthNo:, :Height:, :EmailAddress:, :LandlineNo:, :CellphoneNo:, :Disability:, :EmploymentStatus:, :Type:, :ActivelyLooking:, :LookingWork:, :WillingWork:, :IfNo:, :Beneficiary:, :IfYesHousehold:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\JobseekerController.php(296): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->personalInformation()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 10:39:08 --> [Caused by] mysqli_sql_exception: Column 'CivilStatus' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jobseekerperinfo` (`SurName`, `FirstName`, `MiddleName`, `Suffix`, `DateOfBirth`, `PlaceOfBirth`, `Sex`, `PresentAddress`, `Religion`, `HouseNoOrStreet`, `CivilStatus`, `Barangay`, `MunicipalityOrCity`, `Province`, `TinNo`, `GsisOrSssNo`, `PagibigNo`, `PhilhealthNo`, `Height`, `EmailAddress`, `LandlineNo`, `CellphoneNo`, `Disability`, `EmploymentStatus`, `Type`, `ActivelyLooking`, `LookingWork`, `WillingWork`, `IfNo`, `Beneficiary`, `IfYesHousehold`) VALUES (\'Cueto\', \'\', \'\', \'\', \'\', \'\', \'male\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'sfd\', \'Unemployed\', \'Students\', \'No\', \'\', NULL, \'\', \'No\', \'fgd\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerperinfo` (`SurName`, `FirstName`, `MiddleName`, `Suffix`, `DateOfBirth`, `PlaceOfBirth`, `Sex`, `PresentAddress`, `Religion`, `HouseNoOrStreet`, `CivilStatus`, `Barangay`, `MunicipalityOrCity`, `Province`, `TinNo`, `GsisOrSssNo`, `PagibigNo`, `PhilhealthNo`, `Height`, `EmailAddress`, `LandlineNo`, `CellphoneNo`, `Disability`, `EmploymentStatus`, `Type`, `ActivelyLooking`, `LookingWork`, `WillingWork`, `IfNo`, `Beneficiary`, `IfYesHousehold`) VALUES (\'Cueto\', \'\', \'\', \'\', \'\', \'\', \'male\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'sfd\', \'Unemployed\', \'Students\', \'No\', \'\', NULL, \'\', \'No\', \'fgd\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerperinfo` (`SurName`, `FirstName`, `MiddleName`, `Suffix`, `DateOfBirth`, `PlaceOfBirth`, `Sex`, `PresentAddress`, `Religion`, `HouseNoOrStreet`, `CivilStatus`, `Barangay`, `MunicipalityOrCity`, `Province`, `TinNo`, `GsisOrSssNo`, `PagibigNo`, `PhilhealthNo`, `Height`, `EmailAddress`, `LandlineNo`, `CellphoneNo`, `Disability`, `EmploymentStatus`, `Type`, `ActivelyLooking`, `LookingWork`, `WillingWork`, `IfNo`, `Beneficiary`, `IfYesHousehold`) VALUES (\'Cueto\', \'\', \'\', \'\', \'\', \'\', \'male\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'sfd\', \'Unemployed\', \'Students\', \'No\', \'\', NULL, \'\', \'No\', \'fgd\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerperinfo` (`SurName`, `FirstName`, `MiddleName`, `Suffix`, `DateOfBirth`, `PlaceOfBirth`, `Sex`, `PresentAddress`, `Religion`, `HouseNoOrStreet`, `CivilStatus`, `Barangay`, `MunicipalityOrCity`, `Province`, `TinNo`, `GsisOrSssNo`, `PagibigNo`, `PhilhealthNo`, `Height`, `EmailAddress`, `LandlineNo`, `CellphoneNo`, `Disability`, `EmploymentStatus`, `Type`, `ActivelyLooking`, `LookingWork`, `WillingWork`, `IfNo`, `Beneficiary`, `IfYesHousehold`) VALUES (:SurName:, :FirstName:, :MiddleName:, :Suffix:, :DateOfBirth:, :PlaceOfBirth:, :Sex:, :PresentAddress:, :Religion:, :HouseNoOrStreet:, :CivilStatus:, :Barangay:, :MunicipalityOrCity:, :Province:, :TinNo:, :GsisOrSssNo:, :PagibigNo:, :PhilhealthNo:, :Height:, :EmailAddress:, :LandlineNo:, :CellphoneNo:, :Disability:, :EmploymentStatus:, :Type:, :ActivelyLooking:, :LookingWork:, :WillingWork:, :IfNo:, :Beneficiary:, :IfYesHousehold:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\JobseekerController.php(296): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->personalInformation()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 11:03:06 --> ErrorException: Undefined property: App\Controllers\JobseekerController::$jp
+in APPPATH\Controllers\JobseekerController.php on line 336.
+ 1 APPPATH\Controllers\JobseekerController.php(336): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\JobseekerController::$jp', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 336)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobPreference()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 11:09:03 --> ParseError: syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\JobseekerController.php on line 339.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JobseekerController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JobseekerController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\JobseekerController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-02 11:44:28 --> mysqli_sql_exception: Column 'EnglishWrite' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jo...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-02 11:44:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'EnglishWrite' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 11:44:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'EnglishWrite' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', NULL, NULL, NULL, NULL, \'Yes\', NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', NULL, NULL, NULL, NULL, \'Yes\', NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 11:44:28 --> [Caused by] mysqli_sql_exception: Column 'EnglishWrite' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', NULL, NULL, NULL, NULL, \'Yes\', NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', NULL, NULL, NULL, NULL, \'Yes\', NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', NULL, NULL, NULL, NULL, \'Yes\', NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-02 11:44:44 --> mysqli_sql_exception: Column 'EnglishSpeak' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jo...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-02 11:44:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'EnglishSpeak' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 11:44:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'EnglishSpeak' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', \'Yes\', NULL, NULL, NULL, \'Yes\', NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', \'Yes\', NULL, NULL, NULL, \'Yes\', NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 11:44:44 --> [Caused by] mysqli_sql_exception: Column 'EnglishSpeak' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', \'Yes\', NULL, NULL, NULL, \'Yes\', NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', \'Yes\', NULL, NULL, NULL, \'Yes\', NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', \'Yes\', NULL, NULL, NULL, \'Yes\', NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-02 11:45:53 --> mysqli_sql_exception: Column 'FilipinoRead' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jo...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-02 11:45:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'FilipinoRead' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 11:45:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'FilipinoRead' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', \'Yes\', \'Yes\', \'Yes\', NULL, \'Yes\', NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', \'Yes\', \'Yes\', \'Yes\', NULL, \'Yes\', NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 11:45:53 --> [Caused by] mysqli_sql_exception: Column 'FilipinoRead' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', \'Yes\', \'Yes\', \'Yes\', NULL, \'Yes\', NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', \'Yes\', \'Yes\', \'Yes\', NULL, \'Yes\', NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', \'Yes\', \'Yes\', \'Yes\', NULL, \'Yes\', NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-02 11:46:11 --> mysqli_sql_exception: Column 'EnglishWrite' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jo...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-02 11:46:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'EnglishWrite' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 11:46:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'EnglishWrite' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', NULL, NULL, NULL, \'Yes\', NULL, NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', NULL, NULL, NULL, \'Yes\', NULL, NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 11:46:11 --> [Caused by] mysqli_sql_exception: Column 'EnglishWrite' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', NULL, NULL, NULL, \'Yes\', NULL, NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', NULL, NULL, NULL, \'Yes\', NULL, NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', NULL, NULL, NULL, \'Yes\', NULL, NULL, NULL, \'Cebuano\', \'Yes\', NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-02 11:46:28 --> mysqli_sql_exception: Column 'FilipinoRead' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jo...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-02 11:46:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'FilipinoRead' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 11:46:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'FilipinoRead' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', \'Yes\', \'Yes\', \'Yes\', NULL, \'Yes\', \'Yes\', \'Yes\', \'Cebuano\', \'Yes\', \'Yes\', \'Yes\', \'Yes\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', \'Yes\', \'Yes\', \'Yes\', NULL, \'Yes\', \'Yes\', \'Yes\', \'Cebuano\', \'Yes\', \'Yes\', \'Yes\', \'Yes\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 11:46:28 --> [Caused by] mysqli_sql_exception: Column 'FilipinoRead' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', \'Yes\', \'Yes\', \'Yes\', NULL, \'Yes\', \'Yes\', \'Yes\', \'Cebuano\', \'Yes\', \'Yes\', \'Yes\', \'Yes\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', \'Yes\', \'Yes\', \'Yes\', NULL, \'Yes\', \'Yes\', \'Yes\', \'Cebuano\', \'Yes\', \'Yes\', \'Yes\', \'Yes\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', \'Yes\', \'Yes\', \'Yes\', NULL, \'Yes\', \'Yes\', \'Yes\', \'Cebuano\', \'Yes\', \'Yes\', \'Yes\', \'Yes\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-02 11:47:47 --> mysqli_sql_exception: Column 'EnglishWrite' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jo...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-02 11:47:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'EnglishWrite' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 11:47:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'EnglishWrite' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'\', NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'\', NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 11:47:48 --> [Caused by] mysqli_sql_exception: Column 'EnglishWrite' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'\', NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'\', NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'Yes\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'\', NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-02 11:51:39 --> mysqli_sql_exception: Column 'EnglishRead' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jo...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-02 11:51:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'EnglishRead' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 11:51:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'EnglishRead' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (NULL, \'Yes\', NULL, NULL, NULL, NULL, NULL, NULL, \'\', NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (NULL, \'Yes\', NULL, NULL, NULL, NULL, NULL, NULL, \'\', NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-02 11:51:41 --> [Caused by] mysqli_sql_exception: Column 'EnglishRead' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (NULL, \'Yes\', NULL, NULL, NULL, NULL, NULL, NULL, \'\', NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (NULL, \'Yes\', NULL, NULL, NULL, NULL, NULL, NULL, \'\', NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (NULL, \'Yes\', NULL, NULL, NULL, NULL, NULL, NULL, \'\', NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\JobseekerController.php(376): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

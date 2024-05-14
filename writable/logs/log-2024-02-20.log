@@ -1,0 +1,290 @@
+CRITICAL - 2024-02-20 01:35:15 --> Error: Undefined constant "App\Controllers\jsamodel"
+in APPPATH\Controllers\JobseekerController.php on line 1022.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->applyNowProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 03:15:24 --> ErrorException: Undefined array key "jobTitle"
+in APPPATH\Views\employer\pages\applicants.php on line 51.
+ 1 APPPATH\Views\employer\pages\applicants.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jobTitle"', 'D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\applicants.php', 51)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\applicants.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/applicants', [], true)
+ 5 APPPATH\Controllers\EmployerController.php(42): view('employer/pages/applicants', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerapplicants()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 03:16:43 --> ErrorException: Undefined array key "jobTitle"
+in APPPATH\Views\employer\pages\applicants.php on line 51.
+ 1 APPPATH\Views\employer\pages\applicants.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jobTitle"', 'D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\applicants.php', 51)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\applicants.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/applicants', [], true)
+ 5 APPPATH\Controllers\EmployerController.php(42): view('employer/pages/applicants', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerapplicants()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 03:16:45 --> ErrorException: Undefined array key "jobTitle"
+in APPPATH\Views\employer\pages\applicants.php on line 51.
+ 1 APPPATH\Views\employer\pages\applicants.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jobTitle"', 'D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\applicants.php', 51)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\applicants.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/applicants', [], true)
+ 5 APPPATH\Controllers\EmployerController.php(42): view('employer/pages/applicants', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerapplicants()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 09:43:58 --> ErrorException: Undefined variable $emps
+in APPPATH\Views\employer\pages\applicants.php on line 48.
+ 1 APPPATH\Views\employer\pages\applicants.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $emps', 'D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\applicants.php', 48)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\applicants.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/applicants', [], true)
+ 5 APPPATH\Controllers\EmployerController.php(43): view('employer/pages/applicants', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerapplicants()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 11:00:09 --> ErrorException: Undefined array key "Name"
+in APPPATH\Views\employer\pages\applicants.php on line 125.
+ 1 APPPATH\Views\employer\pages\applicants.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\applicants.php', 125)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\applicants.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/applicants', [], true)
+ 5 APPPATH\Controllers\EmployerController.php(43): view('employer/pages/applicants', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerapplicants()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 11:31:18 --> ErrorException: Undefined variable $employer
+in APPPATH\Views\employer\pages\applicants.php on line 129.
+ 1 APPPATH\Views\employer\pages\applicants.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employer', 'D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\applicants.php', 129)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\applicants.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/applicants', [], true)
+ 5 APPPATH\Controllers\EmployerController.php(43): view('employer/pages/applicants', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerapplicants()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 14:11:33 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\EmployerController.php on line 490.
+ 1 APPPATH\Controllers\EmployerController.php(490): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\EmployerController.php', 490)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->hireApplicant()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 14:13:25 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\EmployerController.php on line 490.
+ 1 APPPATH\Controllers\EmployerController.php(490): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\EmployerController.php', 490)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->hireApplicant()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 14:15:21 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\EmployerController.php on line 490.
+ 1 APPPATH\Controllers\EmployerController.php(490): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\EmployerController.php', 490)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->hireApplicant()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 14:18:20 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\EmployerController.php on line 490.
+ 1 APPPATH\Controllers\EmployerController.php(490): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\EmployerController.php', 490)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->hireApplicant()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 15:34:17 --> ErrorException: Undefined variable $password
+in APPPATH\Controllers\EmployerController.php on line 515.
+ 1 APPPATH\Controllers\EmployerController.php(515): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $password', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\EmployerController.php', 515)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once('D:\\laragon\\www\\citypeso\\app\\Controllers\\EmployerController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\EmployerController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployerController')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployerController')
+ 6 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\EmployerController', true)
+ 7 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 15:34:47 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 970.
+ 1 SYSTEMPATH\BaseModel.php(970): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\EmployerController.php(502): CodeIgniter\Model->update([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->hireApplicant()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 20:11:55 --> ParseError: syntax error, unexpected token "use"
+in APPPATH\Controllers\JobseekerController.php on line 1085.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JobseekerController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JobseekerController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\JobseekerController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 20:12:31 --> ErrorException: require_once(D:\laragon\www\citypeso\app\vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\JobseekerController.php on line 1083.
+ 1 APPPATH\Controllers\JobseekerController.php(1083): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\laragon\\www\\citypeso\\app\\vendor/autoload.php): Failed to open stream: No such file or directory', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 1083)
+ 2 APPPATH\Controllers\JobseekerController.php(1083): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generatePdf()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 20:12:59 --> ErrorException: require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\JobseekerController.php on line 1083.
+ 1 APPPATH\Controllers\JobseekerController.php(1083): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoload.php): Failed to open stream: No such file or directory', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 1083)
+ 2 APPPATH\Controllers\JobseekerController.php(1083): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generatePdf()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 20:13:43 --> ErrorException: require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\JobseekerController.php on line 1083.
+ 1 APPPATH\Controllers\JobseekerController.php(1083): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoload.php): Failed to open stream: No such file or directory', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 1083)
+ 2 APPPATH\Controllers\JobseekerController.php(1083): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generatePdf()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 22:14:00 --> ErrorException: require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\JobseekerController.php on line 1083.
+ 1 APPPATH\Controllers\JobseekerController.php(1083): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoload.php): Failed to open stream: No such file or directory', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 1083)
+ 2 APPPATH\Controllers\JobseekerController.php(1083): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generatePdf()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 22:14:29 --> ErrorException: require_once(/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\JobseekerController.php on line 1083.
+ 1 APPPATH\Controllers\JobseekerController.php(1083): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/vendor/autoload.php): Failed to open stream: No such file or directory', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 1083)
+ 2 APPPATH\Controllers\JobseekerController.php(1083): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generatePdf()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 22:15:14 --> ErrorException: require_once(D:\laragon\www\citypeso\app\/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\JobseekerController.php on line 1083.
+ 1 APPPATH\Controllers\JobseekerController.php(1083): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\laragon\\www\\citypeso\\app\\/vendor/autoload.php): Failed to open stream: No such file or directory', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 1083)
+ 2 APPPATH\Controllers\JobseekerController.php(1083): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generatePdf()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 22:17:59 --> ErrorException: require_once(D:\laragon\www\citypeso\app\/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\JobseekerController.php on line 7.
+ 1 APPPATH\Controllers\JobseekerController.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\laragon\\www\\citypeso\\app\\/vendor/autoload.php): Failed to open stream: No such file or directory', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 7)
+ 2 APPPATH\Controllers\JobseekerController.php(7): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once('D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JobseekerController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JobseekerController')
+ 7 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\JobseekerController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 22:18:09 --> ErrorException: require_once(D:\laragon\www\citypeso\app\/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\JobseekerController.php on line 29.
+ 1 APPPATH\Controllers\JobseekerController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\laragon\\www\\citypeso\\app\\/vendor/autoload.php): Failed to open stream: No such file or directory', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 29)
+ 2 APPPATH\Controllers\JobseekerController.php(29): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\JobseekerController->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 22:22:18 --> ErrorException: require_once(D:\laragon\www\citypeso\app\/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\JobseekerController.php on line 1083.
+ 1 APPPATH\Controllers\JobseekerController.php(1083): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\laragon\\www\\citypeso\\app\\/vendor/autoload.php): Failed to open stream: No such file or directory', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 1083)
+ 2 APPPATH\Controllers\JobseekerController.php(1083): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generatePdf()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 22:22:39 --> ErrorException: Undefined variable $info
+in APPPATH\Views\jobseeker\pages\personaldata.php on line 16.
+ 1 APPPATH\Views\jobseeker\pages\personaldata.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'D:\\laragon\\www\\citypeso\\app\\Views\\jobseeker\\pages\\personaldata.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\jobseeker\\pages\\personaldata.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('jobseeker/pages/personaldata', [], true)
+ 5 APPPATH\Controllers\JobseekerController.php(1092): view('jobseeker/pages/personaldata', [], [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->generatePdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 22:25:26 --> ParseError: syntax error, unexpected token "use"
+in APPPATH\Controllers\JobseekerController.php on line 1085.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JobseekerController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JobseekerController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\JobseekerController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 22:25:34 --> ParseError: syntax error, unexpected token "use"
+in APPPATH\Controllers\JobseekerController.php on line 1085.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JobseekerController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JobseekerController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\JobseekerController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 22:29:52 --> ParseError: syntax error, unexpected token "use"
+in APPPATH\Controllers\JobseekerController.php on line 1085.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JobseekerController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JobseekerController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\JobseekerController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 22:29:54 --> ParseError: syntax error, unexpected token "use"
+in APPPATH\Controllers\JobseekerController.php on line 1085.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JobseekerController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JobseekerController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\JobseekerController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-20 22:29:58 --> ParseError: syntax error, unexpected token "use"
+in APPPATH\Controllers\JobseekerController.php on line 1085.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JobseekerController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JobseekerController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\JobseekerController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

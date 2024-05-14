@@ -1,0 +1,62 @@
+CRITICAL - 2024-01-28 14:53:16 --> ErrorException: Undefined variable $JobseekerModel
+in APPPATH\Controllers\JobseekerController.php on line 90.
+ 1 APPPATH\Controllers\JobseekerController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $JobseekerModel', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jsignupprocess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-01-28 14:56:19 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(90): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jsignupprocess()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#3 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#4 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#5 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#6 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(90): CodeIgniter\Model->insert(Array)
+#7 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jsignupprocess()
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-01-28 14:56:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlogin` (`Fullname`, `Email`, `Password`, `ActivationKey`) VALUES (:Fullname:, :Email:, :Password:, :ActivationKey:)', [...], false)
+ 3 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\JobseekerController.php(90): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jsignupprocess()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-01-28 15:06:07 --> ErrorException: Undefined array key "id"
+in APPPATH\Controllers\JobseekerController.php on line 114.
+ 1 APPPATH\Controllers\JobseekerController.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->activatenow('e8134ebe33544935d5670b88240141d00067bc8676fee440b98ad58b70ff4a3271cfc4cf22a4f56a59345e27e507b96f4f2c')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

@@ -1,0 +1,56 @@
+CRITICAL - 2024-03-05 00:31:38 --> ErrorException: Undefined array key "EligibilityTitle1"
+in APPPATH\Views\jobseeker\pages\personaldata.php on line 978.
+ 1 APPPATH\Views\jobseeker\pages\personaldata.php(978): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "EligibilityTitle1"', 'D:\\laragon\\www\\citypeso\\app\\Views\\jobseeker\\pages\\personaldata.php', 978)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\jobseeker\\pages\\personaldata.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('jobseeker/pages/personaldata', [], true)
+ 5 APPPATH\Controllers\JobseekerController.php(1162): view('jobseeker/pages/personaldata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->mypersonalinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-05 00:50:39 --> ErrorException: Undefined array key "CompanyDate1"
+in APPPATH\Views\jobseeker\pages\personaldata.php on line 1103.
+ 1 APPPATH\Views\jobseeker\pages\personaldata.php(1103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CompanyDate1"', 'D:\\laragon\\www\\citypeso\\app\\Views\\jobseeker\\pages\\personaldata.php', 1103)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\jobseeker\\pages\\personaldata.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('jobseeker/pages/personaldata', [], true)
+ 5 APPPATH\Controllers\JobseekerController.php(1164): view('jobseeker/pages/personaldata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->mypersonalinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-05 00:54:24 --> ErrorException: Undefined array key "Sex"
+in APPPATH\Views\jobseeker\pages\personaldata.php on line 1277.
+ 1 APPPATH\Views\jobseeker\pages\personaldata.php(1277): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Sex"', 'D:\\laragon\\www\\citypeso\\app\\Views\\jobseeker\\pages\\personaldata.php', 1277)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\jobseeker\\pages\\personaldata.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('jobseeker/pages/personaldata', [], true)
+ 5 APPPATH\Controllers\JobseekerController.php(1167): view('jobseeker/pages/personaldata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->mypersonalinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-05 01:18:57 --> ParseError: syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\jobseeker\pages\personaldata.php on line 1295.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('jobseeker/pages/personaldata', [], true)
+ 3 APPPATH\Controllers\JobseekerController.php(1167): view('jobseeker/pages/personaldata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->mypersonalinfo()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-05 01:23:37 --> ParseError: syntax error, unexpected token "<"
+in APPPATH\Views\jobseeker\pages\personaldata.php on line 1280.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('jobseeker/pages/personaldata', [], true)
+ 3 APPPATH\Controllers\JobseekerController.php(1167): view('jobseeker/pages/personaldata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->mypersonalinfo()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

@@ -1,0 +1,12 @@
+CRITICAL - 2024-02-26 00:31:13 --> ErrorException: Undefined variable $employer
+in APPPATH\Views\employer\pages\employerprofile.php on line 50.
+ 1 APPPATH\Views\employer\pages\employerprofile.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employer', 'D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\employerprofile.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\employerprofile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/employerprofile', [], true)
+ 5 APPPATH\Controllers\EmployerController.php(30): view('employer/pages/employerprofile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->newemployerprofile()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

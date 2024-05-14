@@ -1,0 +1,384 @@
+ERROR - 2024-02-27 03:41:20 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'citypeso', 3306, '', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 D:\laragon\www\citypeso\app\Controllers\EmployerController.php(284): CodeIgniter\BaseModel->first()
+#7 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\EmployerController->employerLoginProcess()
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\citypeso\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\citypeso\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 D:\laragon\www\citypeso\app\Controllers\EmployerController.php(284): CodeIgniter\BaseModel->first()
+#6 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\EmployerController->employerLoginProcess()
+#7 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-02-27 03:41:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `employerlogin`
+WHERE `emailAddress` = :emailAddress:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\EmployerController.php(284): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerLoginProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-27 03:41:49 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'citypeso', 3306, '', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 D:\laragon\www\citypeso\app\Controllers\EmployerController.php(284): CodeIgniter\BaseModel->first()
+#7 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\EmployerController->employerLoginProcess()
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\citypeso\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\citypeso\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 D:\laragon\www\citypeso\app\Controllers\EmployerController.php(284): CodeIgniter\BaseModel->first()
+#6 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\EmployerController->employerLoginProcess()
+#7 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-02-27 03:41:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `employerlogin`
+WHERE `emailAddress` = :emailAddress:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\EmployerController.php(284): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerLoginProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-27 13:09:06 --> mysqli_sql_exception: Column 'pagibig' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `em...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\EmployerController.php(458): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\EmployerController->jobPostProcess()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-27 13:09:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'pagibig' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (:jobTitle:, :workLocation:, :educBackground:, :jobOption:, :salary:, :jobDescription:, :jobQualification:, :remarks:, :employerId:, :vaccination:, :sss:, :pagibig:, :philhealth:, :tin:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\EmployerController.php(458): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->jobPostProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-27 13:09:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'pagibig' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iuyhiouyhi\', \'ouhiou\', \'hiouh\', \'iuh\', \'iuh\', \'ioh\', \'oih\', \'iuh\', \'1\', \'on\', \'on\', NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iuyhiouyhi\', \'ouhiou\', \'hiouh\', \'iuh\', \'iuh\', \'ioh\', \'oih\', \'iuh\', \'1\', \'on\', \'on\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (:jobTitle:, :workLocation:, :educBackground:, :jobOption:, :salary:, :jobDescription:, :jobQualification:, :remarks:, :employerId:, :vaccination:, :sss:, :pagibig:, :philhealth:, :tin:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\EmployerController.php(458): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->jobPostProcess()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-27 13:09:06 --> [Caused by] mysqli_sql_exception: Column 'pagibig' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iuyhiouyhi\', \'ouhiou\', \'hiouh\', \'iuh\', \'iuh\', \'ioh\', \'oih\', \'iuh\', \'1\', \'on\', \'on\', NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iuyhiouyhi\', \'ouhiou\', \'hiouh\', \'iuh\', \'iuh\', \'ioh\', \'oih\', \'iuh\', \'1\', \'on\', \'on\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iuyhiouyhi\', \'ouhiou\', \'hiouh\', \'iuh\', \'iuh\', \'ioh\', \'oih\', \'iuh\', \'1\', \'on\', \'on\', NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (:jobTitle:, :workLocation:, :educBackground:, :jobOption:, :salary:, :jobDescription:, :jobQualification:, :remarks:, :employerId:, :vaccination:, :sss:, :pagibig:, :philhealth:, :tin:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\EmployerController.php(458): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->jobPostProcess()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-27 13:10:39 --> mysqli_sql_exception: Column 'pagibig' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `em...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\EmployerController.php(458): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\EmployerController->jobPostProcess()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-27 13:10:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'pagibig' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (:jobTitle:, :workLocation:, :educBackground:, :jobOption:, :salary:, :jobDescription:, :jobQualification:, :remarks:, :employerId:, :vaccination:, :sss:, :pagibig:, :philhealth:, :tin:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\EmployerController.php(458): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->jobPostProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-27 13:10:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'pagibig' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iuyhiouyhi\', \'ouhiou\', \'hiouh\', \'iuh\', \'iuh\', \'ioh\', \'oih\', \'iuh\', \'1\', \'on\', \'on\', NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iuyhiouyhi\', \'ouhiou\', \'hiouh\', \'iuh\', \'iuh\', \'ioh\', \'oih\', \'iuh\', \'1\', \'on\', \'on\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (:jobTitle:, :workLocation:, :educBackground:, :jobOption:, :salary:, :jobDescription:, :jobQualification:, :remarks:, :employerId:, :vaccination:, :sss:, :pagibig:, :philhealth:, :tin:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\EmployerController.php(458): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->jobPostProcess()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-27 13:10:39 --> [Caused by] mysqli_sql_exception: Column 'pagibig' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iuyhiouyhi\', \'ouhiou\', \'hiouh\', \'iuh\', \'iuh\', \'ioh\', \'oih\', \'iuh\', \'1\', \'on\', \'on\', NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iuyhiouyhi\', \'ouhiou\', \'hiouh\', \'iuh\', \'iuh\', \'ioh\', \'oih\', \'iuh\', \'1\', \'on\', \'on\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iuyhiouyhi\', \'ouhiou\', \'hiouh\', \'iuh\', \'iuh\', \'ioh\', \'oih\', \'iuh\', \'1\', \'on\', \'on\', NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (:jobTitle:, :workLocation:, :educBackground:, :jobOption:, :salary:, :jobDescription:, :jobQualification:, :remarks:, :employerId:, :vaccination:, :sss:, :pagibig:, :philhealth:, :tin:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\EmployerController.php(458): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->jobPostProcess()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-27 13:10:55 --> mysqli_sql_exception: Column 'vaccination' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `em...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\EmployerController.php(458): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\EmployerController->jobPostProcess()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-27 13:10:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'vaccination' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (:jobTitle:, :workLocation:, :educBackground:, :jobOption:, :salary:, :jobDescription:, :jobQualification:, :remarks:, :employerId:, :vaccination:, :sss:, :pagibig:, :philhealth:, :tin:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\EmployerController.php(458): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->jobPostProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-27 13:10:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'vaccination' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iouy\', \'iuyhoiu\', \'yh\', \'oiuy\', \'oiu\', \'yoiu\', \'sgd\', \'oiuy\', \'1\', NULL, NULL, \'on\', NULL, \'on\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iouy\', \'iuyhoiu\', \'yh\', \'oiuy\', \'oiu\', \'yoiu\', \'sgd\', \'oiuy\', \'1\', NULL, NULL, \'on\', NULL, \'on\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (:jobTitle:, :workLocation:, :educBackground:, :jobOption:, :salary:, :jobDescription:, :jobQualification:, :remarks:, :employerId:, :vaccination:, :sss:, :pagibig:, :philhealth:, :tin:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\EmployerController.php(458): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->jobPostProcess()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-27 13:10:55 --> [Caused by] mysqli_sql_exception: Column 'vaccination' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iouy\', \'iuyhoiu\', \'yh\', \'oiuy\', \'oiu\', \'yoiu\', \'sgd\', \'oiuy\', \'1\', NULL, NULL, \'on\', NULL, \'on\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iouy\', \'iuyhoiu\', \'yh\', \'oiuy\', \'oiu\', \'yoiu\', \'sgd\', \'oiuy\', \'1\', NULL, NULL, \'on\', NULL, \'on\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iouy\', \'iuyhoiu\', \'yh\', \'oiuy\', \'oiu\', \'yoiu\', \'sgd\', \'oiuy\', \'1\', NULL, NULL, \'on\', NULL, \'on\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (:jobTitle:, :workLocation:, :educBackground:, :jobOption:, :salary:, :jobDescription:, :jobQualification:, :remarks:, :employerId:, :vaccination:, :sss:, :pagibig:, :philhealth:, :tin:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\EmployerController.php(458): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->jobPostProcess()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-27 13:13:13 --> mysqli_sql_exception: Column 'vaccination' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `em...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\EmployerController.php(458): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\EmployerController->jobPostProcess()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-27 13:13:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'vaccination' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (:jobTitle:, :workLocation:, :educBackground:, :jobOption:, :salary:, :jobDescription:, :jobQualification:, :remarks:, :employerId:, :vaccination:, :sss:, :pagibig:, :philhealth:, :tin:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\EmployerController.php(458): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->jobPostProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-27 13:13:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'vaccination' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iouy\', \'iuyhoiu\', \'yh\', \'oiuy\', \'oiu\', \'yoiu\', \'sgd\', \'oiuy\', \'1\', NULL, NULL, \'on\', NULL, \'on\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iouy\', \'iuyhoiu\', \'yh\', \'oiuy\', \'oiu\', \'yoiu\', \'sgd\', \'oiuy\', \'1\', NULL, NULL, \'on\', NULL, \'on\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (:jobTitle:, :workLocation:, :educBackground:, :jobOption:, :salary:, :jobDescription:, :jobQualification:, :remarks:, :employerId:, :vaccination:, :sss:, :pagibig:, :philhealth:, :tin:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\EmployerController.php(458): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->jobPostProcess()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-27 13:13:13 --> [Caused by] mysqli_sql_exception: Column 'vaccination' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iouy\', \'iuyhoiu\', \'yh\', \'oiuy\', \'oiu\', \'yoiu\', \'sgd\', \'oiuy\', \'1\', NULL, NULL, \'on\', NULL, \'on\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iouy\', \'iuyhoiu\', \'yh\', \'oiuy\', \'oiu\', \'yoiu\', \'sgd\', \'oiuy\', \'1\', NULL, NULL, \'on\', NULL, \'on\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (\'iouy\', \'iuyhoiu\', \'yh\', \'oiuy\', \'oiu\', \'yoiu\', \'sgd\', \'oiuy\', \'1\', NULL, NULL, \'on\', NULL, \'on\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employerjobpost` (`jobTitle`, `workLocation`, `educBackground`, `jobOption`, `salary`, `jobDescription`, `jobQualification`, `remarks`, `employerId`, `vaccination`, `sss`, `pagibig`, `philhealth`, `tin`) VALUES (:jobTitle:, :workLocation:, :educBackground:, :jobOption:, :salary:, :jobDescription:, :jobQualification:, :remarks:, :employerId:, :vaccination:, :sss:, :pagibig:, :philhealth:, :tin:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\EmployerController.php(458): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->jobPostProcess()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-27 16:52:33 --> ParseError: syntax error, unexpected token "echo"
+in APPPATH\Views\default\lists.php on line 224.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('default/lists', [], true)
+ 3 APPPATH\Controllers\JobseekerController.php(44): view('default/lists', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->joblists()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-27 23:21:47 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\JobseekerController.php on line 1034.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->applyNowProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-27 23:23:25 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\JobseekerController.php on line 1034.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->applyNowProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-27 23:27:42 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\JobseekerController.php on line 1034.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->applyNowProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-27 23:30:36 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\JobseekerController.php on line 1034.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->applyNowProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-27 23:30:59 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\JobseekerController.php on line 1034.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->applyNowProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-27 23:35:37 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\JobseekerController.php on line 1035.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->applyNowProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-27 23:50:40 --> ErrorException: Undefined variable $emps
+in APPPATH\Views\employer\pages\applicants.php on line 134.
+ 1 APPPATH\Views\employer\pages\applicants.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $emps', 'D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\applicants.php', 134)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\applicants.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/applicants', [], true)
+ 5 APPPATH\Controllers\EmployerController.php(56): view('employer/pages/applicants', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerapplicants()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

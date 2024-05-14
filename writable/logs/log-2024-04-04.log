@@ -1,0 +1,185 @@
+ERROR - 2024-04-04 18:31:04 --> mysqli_sql_exception: Unknown column 'jobseekerperinfo.TertiaryCourse' in 'where clause' in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `jobseek...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jobseek...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jobseek...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `jobseek...', Array, false)
+#4 D:\laragon\www\citypeso\app\Controllers\AdminController.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\AdminController->searchJobseekers()
+#6 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-04-04 18:31:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jobseekerperinfo.TertiaryCourse' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `jobseekerperinfo`.*, `jobseekerjobpre`.*, `jobseekereducback`.*, `jobseekereligibility`.*, `jobseekerlanguage`.*, `jobseekerskills`.*, `jobseekertraining`.*, `jobseekerworkexp`.*
+FROM `jobseekerperinfo`
+JOIN `jobseekerjobpre` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerjobpre`.`jobseekerId`
+JOIN `jobseekereducback` ON `jobseekerperinfo`.`jobseekerId` = `jobseekereducback`.`jobseekerId`
+JOIN `jobseekereligibility` ON `jobseekerperinfo`.`jobseekerId` = `jobseekereligibility`.`jobseekerId`
+JOIN `jobseekerlanguage` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerlanguage`.`jobseekerId`
+JOIN `jobseekerskills` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerskills`.`jobseekerId`
+JOIN `jobseekertraining` ON `jobseekerperinfo`.`jobseekerId` = `jobseekertraining`.`jobseekerId`
+JOIN `jobseekerworkexp` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerworkexp`.`jobseekerId`
+WHERE `jobseekerperinfo`.`CivilStatus` = :jobseekerperinfo.CivilStatus:
+AND `jobseekerperinfo`.`TertiaryCourse` IS NULL', [...], false)
+ 2 APPPATH\Controllers\AdminController.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->searchJobseekers()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-04 18:31:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jobseekerperinfo.TertiaryCourse' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jobseekerperinfo`.*, `jobseekerjobpre`.*, `jobseekereducback`.*, `jobseekereligibility`.*, `jobseekerlanguage`.*, `jobseekerskills`.*, `jobseekertraining`.*, `jobseekerworkexp`.*
+FROM `jobseekerperinfo`
+JOIN `jobseekerjobpre` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerjobpre`.`jobseekerId`
+JOIN `jobseekereducback` ON `jobseekerperinfo`.`jobseekerId` = `jobseekereducback`.`jobseekerId`
+JOIN `jobseekereligibility` ON `jobseekerperinfo`.`jobseekerId` = `jobseekereligibility`.`jobseekerId`
+JOIN `jobseekerlanguage` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerlanguage`.`jobseekerId`
+JOIN `jobseekerskills` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerskills`.`jobseekerId`
+JOIN `jobseekertraining` ON `jobseekerperinfo`.`jobseekerId` = `jobseekertraining`.`jobseekerId`
+JOIN `jobseekerworkexp` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerworkexp`.`jobseekerId`
+WHERE `jobseekerperinfo`.`CivilStatus` = \'Single\'
+AND `jobseekerperinfo`.`TertiaryCourse` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jobseekerperinfo`.*, `jobseekerjobpre`.*, `jobseekereducback`.*, `jobseekereligibility`.*, `jobseekerlanguage`.*, `jobseekerskills`.*, `jobseekertraining`.*, `jobseekerworkexp`.*
+FROM `jobseekerperinfo`
+JOIN `jobseekerjobpre` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerjobpre`.`jobseekerId`
+JOIN `jobseekereducback` ON `jobseekerperinfo`.`jobseekerId` = `jobseekereducback`.`jobseekerId`
+JOIN `jobseekereligibility` ON `jobseekerperinfo`.`jobseekerId` = `jobseekereligibility`.`jobseekerId`
+JOIN `jobseekerlanguage` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerlanguage`.`jobseekerId`
+JOIN `jobseekerskills` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerskills`.`jobseekerId`
+JOIN `jobseekertraining` ON `jobseekerperinfo`.`jobseekerId` = `jobseekertraining`.`jobseekerId`
+JOIN `jobseekerworkexp` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerworkexp`.`jobseekerId`
+WHERE `jobseekerperinfo`.`CivilStatus` = \'Single\'
+AND `jobseekerperinfo`.`TertiaryCourse` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `jobseekerperinfo`.*, `jobseekerjobpre`.*, `jobseekereducback`.*, `jobseekereligibility`.*, `jobseekerlanguage`.*, `jobseekerskills`.*, `jobseekertraining`.*, `jobseekerworkexp`.*
+FROM `jobseekerperinfo`
+JOIN `jobseekerjobpre` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerjobpre`.`jobseekerId`
+JOIN `jobseekereducback` ON `jobseekerperinfo`.`jobseekerId` = `jobseekereducback`.`jobseekerId`
+JOIN `jobseekereligibility` ON `jobseekerperinfo`.`jobseekerId` = `jobseekereligibility`.`jobseekerId`
+JOIN `jobseekerlanguage` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerlanguage`.`jobseekerId`
+JOIN `jobseekerskills` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerskills`.`jobseekerId`
+JOIN `jobseekertraining` ON `jobseekerperinfo`.`jobseekerId` = `jobseekertraining`.`jobseekerId`
+JOIN `jobseekerworkexp` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerworkexp`.`jobseekerId`
+WHERE `jobseekerperinfo`.`CivilStatus` = :jobseekerperinfo.CivilStatus:
+AND `jobseekerperinfo`.`TertiaryCourse` IS NULL', [...], false)
+ 4 APPPATH\Controllers\AdminController.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->searchJobseekers()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-04 18:31:04 --> [Caused by] mysqli_sql_exception: Unknown column 'jobseekerperinfo.TertiaryCourse' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `jobseekerperinfo`.*, `jobseekerjobpre`.*, `jobseekereducback`.*, `jobseekereligibility`.*, `jobseekerlanguage`.*, `jobseekerskills`.*, `jobseekertraining`.*, `jobseekerworkexp`.*
+FROM `jobseekerperinfo`
+JOIN `jobseekerjobpre` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerjobpre`.`jobseekerId`
+JOIN `jobseekereducback` ON `jobseekerperinfo`.`jobseekerId` = `jobseekereducback`.`jobseekerId`
+JOIN `jobseekereligibility` ON `jobseekerperinfo`.`jobseekerId` = `jobseekereligibility`.`jobseekerId`
+JOIN `jobseekerlanguage` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerlanguage`.`jobseekerId`
+JOIN `jobseekerskills` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerskills`.`jobseekerId`
+JOIN `jobseekertraining` ON `jobseekerperinfo`.`jobseekerId` = `jobseekertraining`.`jobseekerId`
+JOIN `jobseekerworkexp` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerworkexp`.`jobseekerId`
+WHERE `jobseekerperinfo`.`CivilStatus` = \'Single\'
+AND `jobseekerperinfo`.`TertiaryCourse` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jobseekerperinfo`.*, `jobseekerjobpre`.*, `jobseekereducback`.*, `jobseekereligibility`.*, `jobseekerlanguage`.*, `jobseekerskills`.*, `jobseekertraining`.*, `jobseekerworkexp`.*
+FROM `jobseekerperinfo`
+JOIN `jobseekerjobpre` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerjobpre`.`jobseekerId`
+JOIN `jobseekereducback` ON `jobseekerperinfo`.`jobseekerId` = `jobseekereducback`.`jobseekerId`
+JOIN `jobseekereligibility` ON `jobseekerperinfo`.`jobseekerId` = `jobseekereligibility`.`jobseekerId`
+JOIN `jobseekerlanguage` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerlanguage`.`jobseekerId`
+JOIN `jobseekerskills` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerskills`.`jobseekerId`
+JOIN `jobseekertraining` ON `jobseekerperinfo`.`jobseekerId` = `jobseekertraining`.`jobseekerId`
+JOIN `jobseekerworkexp` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerworkexp`.`jobseekerId`
+WHERE `jobseekerperinfo`.`CivilStatus` = \'Single\'
+AND `jobseekerperinfo`.`TertiaryCourse` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jobseekerperinfo`.*, `jobseekerjobpre`.*, `jobseekereducback`.*, `jobseekereligibility`.*, `jobseekerlanguage`.*, `jobseekerskills`.*, `jobseekertraining`.*, `jobseekerworkexp`.*
+FROM `jobseekerperinfo`
+JOIN `jobseekerjobpre` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerjobpre`.`jobseekerId`
+JOIN `jobseekereducback` ON `jobseekerperinfo`.`jobseekerId` = `jobseekereducback`.`jobseekerId`
+JOIN `jobseekereligibility` ON `jobseekerperinfo`.`jobseekerId` = `jobseekereligibility`.`jobseekerId`
+JOIN `jobseekerlanguage` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerlanguage`.`jobseekerId`
+JOIN `jobseekerskills` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerskills`.`jobseekerId`
+JOIN `jobseekertraining` ON `jobseekerperinfo`.`jobseekerId` = `jobseekertraining`.`jobseekerId`
+JOIN `jobseekerworkexp` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerworkexp`.`jobseekerId`
+WHERE `jobseekerperinfo`.`CivilStatus` = \'Single\'
+AND `jobseekerperinfo`.`TertiaryCourse` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `jobseekerperinfo`.*, `jobseekerjobpre`.*, `jobseekereducback`.*, `jobseekereligibility`.*, `jobseekerlanguage`.*, `jobseekerskills`.*, `jobseekertraining`.*, `jobseekerworkexp`.*
+FROM `jobseekerperinfo`
+JOIN `jobseekerjobpre` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerjobpre`.`jobseekerId`
+JOIN `jobseekereducback` ON `jobseekerperinfo`.`jobseekerId` = `jobseekereducback`.`jobseekerId`
+JOIN `jobseekereligibility` ON `jobseekerperinfo`.`jobseekerId` = `jobseekereligibility`.`jobseekerId`
+JOIN `jobseekerlanguage` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerlanguage`.`jobseekerId`
+JOIN `jobseekerskills` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerskills`.`jobseekerId`
+JOIN `jobseekertraining` ON `jobseekerperinfo`.`jobseekerId` = `jobseekertraining`.`jobseekerId`
+JOIN `jobseekerworkexp` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerworkexp`.`jobseekerId`
+WHERE `jobseekerperinfo`.`CivilStatus` = :jobseekerperinfo.CivilStatus:
+AND `jobseekerperinfo`.`TertiaryCourse` IS NULL', [...], false)
+ 5 APPPATH\Controllers\AdminController.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->searchJobseekers()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-04 18:31:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/pages/no_results.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/no_results.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/no_results', [], true)
+ 3 APPPATH\Controllers\AdminController.php(62): view('admin/pages/no_results')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->searchJobseekers()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-04 18:32:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/pages/no_results.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/no_results.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/no_results', [], true)
+ 3 APPPATH\Controllers\AdminController.php(62): view('admin/pages/no_results')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->searchJobseekers()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-04 18:34:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/pages/no_results.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/no_results.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/no_results', [], true)
+ 3 APPPATH\Controllers\AdminController.php(67): view('admin/pages/no_results')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->searchJobseekers()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-04 18:34:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/pages/no_results.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/no_results.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/no_results', [], true)
+ 3 APPPATH\Controllers\AdminController.php(67): view('admin/pages/no_results')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->searchJobseekers()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-04 18:34:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/pages/no_results.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/no_results.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/no_results', [], true)
+ 3 APPPATH\Controllers\AdminController.php(67): view('admin/pages/no_results')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->searchJobseekers()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-04 18:35:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/pages/no_results.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/no_results.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/no_results', [], true)
+ 3 APPPATH\Controllers\AdminController.php(67): view('admin/pages/no_results')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->searchJobseekers()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

@@ -1,0 +1,336 @@
+CRITICAL - 2024-03-28 00:25:10 --> Error: Call to undefined function App\Controllers\dump()
+in APPPATH\Controllers\AdminController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 00:25:55 --> Error: Call to undefined function App\Controllers\dump()
+in APPPATH\Controllers\AdminController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 00:26:13 --> Error: Call to undefined function App\Controllers\dump()
+in APPPATH\Controllers\AdminController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 00:26:15 --> Error: Call to undefined function App\Controllers\dump()
+in APPPATH\Controllers\AdminController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 00:26:16 --> Error: Call to undefined function App\Controllers\dump()
+in APPPATH\Controllers\AdminController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 00:26:16 --> Error: Call to undefined function App\Controllers\dump()
+in APPPATH\Controllers\AdminController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 00:26:16 --> Error: Call to undefined function App\Controllers\dump()
+in APPPATH\Controllers\AdminController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 01:21:04 --> ParseError: syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\AdminController.php on line 302.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 01:47:02 --> Error: Call to undefined function App\Controllers\getVar()
+in APPPATH\Controllers\AdminController.php on line 278.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->viewdetailsjobseekers()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 01:49:17 --> TypeError: CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, array given, called in D:\laragon\www\citypeso\app\Controllers\AdminController.php on line 300
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 34.
+ 1 APPPATH\Controllers\AdminController.php(300): CodeIgniter\HTTP\RedirectResponse->to('admin/pages/jpersonaldata', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->viewdetailsjobseekers()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 02:28:52 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\admin\pages\jobseekers.php on line 98.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/jobseekers', [], true)
+ 3 APPPATH\Controllers\AdminController.php(58): view('admin/pages/jobseekers', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 02:38:42 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\admin\pages\jobseekers.php on line 81.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/jobseekers', [], true)
+ 3 APPPATH\Controllers\AdminController.php(58): view('admin/pages/jobseekers', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 04:21:07 --> ParseError: syntax error, unexpected token ":"
+in APPPATH\Views\admin\pages\jobseekers.php on line 47.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/jobseekers', [], true)
+ 3 APPPATH\Controllers\AdminController.php(58): view('admin/pages/jobseekers', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:02:02 --> ErrorException: Undefined variable $db
+in APPPATH\Controllers\AdminController.php on line 50.
+ 1 APPPATH\Controllers\AdminController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:02:36 --> ErrorException: Undefined variable $pimodel
+in APPPATH\Controllers\AdminController.php on line 50.
+ 1 APPPATH\Controllers\AdminController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pimodel', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:02:38 --> ErrorException: Undefined variable $pimodel
+in APPPATH\Controllers\AdminController.php on line 50.
+ 1 APPPATH\Controllers\AdminController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pimodel', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:02:45 --> Error: Call to undefined function App\Controllers\table()
+in APPPATH\Controllers\AdminController.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:02:51 --> ErrorException: Undefined variable $db
+in APPPATH\Controllers\AdminController.php on line 50.
+ 1 APPPATH\Controllers\AdminController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:03:17 --> Error: Class "App\Controllers\Database" not found
+in APPPATH\Controllers\AdminController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:03:19 --> Error: Class "App\Controllers\Database" not found
+in APPPATH\Controllers\AdminController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:03:19 --> Error: Class "App\Controllers\Database" not found
+in APPPATH\Controllers\AdminController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:03:20 --> Error: Class "App\Controllers\Database" not found
+in APPPATH\Controllers\AdminController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:03:20 --> Error: Class "App\Controllers\Database" not found
+in APPPATH\Controllers\AdminController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:03:20 --> Error: Class "App\Controllers\Database" not found
+in APPPATH\Controllers\AdminController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:03:40 --> Error: Undefined constant "App\Controllers\this"
+in APPPATH\Controllers\AdminController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:03:47 --> ErrorException: Undefined variable $db
+in APPPATH\Controllers\AdminController.php on line 49.
+ 1 APPPATH\Controllers\AdminController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:04:34 --> ErrorException: Undefined variable $pi
+in APPPATH\Views\admin\pages\jobseekers.php on line 44.
+ 1 APPPATH\Views\admin\pages\jobseekers.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pi', 'D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\jobseekers.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\jobseekers.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/jobseekers', [], true)
+ 5 APPPATH\Controllers\AdminController.php(68): view('admin/pages/jobseekers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:06:36 --> ErrorException: Undefined variable $pi
+in APPPATH\Views\admin\pages\jobseekers.php on line 44.
+ 1 APPPATH\Views\admin\pages\jobseekers.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pi', 'D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\jobseekers.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\jobseekers.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/jobseekers', [], true)
+ 5 APPPATH\Controllers\AdminController.php(75): view('admin/pages/jobseekers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:06:48 --> ErrorException: Undefined variable $pi
+in APPPATH\Views\admin\pages\jobseekers.php on line 44.
+ 1 APPPATH\Views\admin\pages\jobseekers.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pi', 'D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\jobseekers.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\jobseekers.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/jobseekers', [], true)
+ 5 APPPATH\Controllers\AdminController.php(75): view('admin/pages/jobseekers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:06:49 --> ErrorException: Undefined variable $pi
+in APPPATH\Views\admin\pages\jobseekers.php on line 44.
+ 1 APPPATH\Views\admin\pages\jobseekers.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pi', 'D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\jobseekers.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\jobseekers.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/jobseekers', [], true)
+ 5 APPPATH\Controllers\AdminController.php(75): view('admin/pages/jobseekers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:06:50 --> ErrorException: Undefined variable $pi
+in APPPATH\Views\admin\pages\jobseekers.php on line 44.
+ 1 APPPATH\Views\admin\pages\jobseekers.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pi', 'D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\jobseekers.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\jobseekers.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/jobseekers', [], true)
+ 5 APPPATH\Controllers\AdminController.php(75): view('admin/pages/jobseekers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:06:50 --> ErrorException: Undefined variable $pi
+in APPPATH\Views\admin\pages\jobseekers.php on line 44.
+ 1 APPPATH\Views\admin\pages\jobseekers.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pi', 'D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\jobseekers.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\jobseekers.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/jobseekers', [], true)
+ 5 APPPATH\Controllers\AdminController.php(75): view('admin/pages/jobseekers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:07:02 --> ErrorException: Undefined variable $combinedata
+in APPPATH\Controllers\AdminController.php on line 68.
+ 1 APPPATH\Controllers\AdminController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combinedata', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:07:13 --> ErrorException: Undefined variable $combinedata
+in APPPATH\Controllers\AdminController.php on line 68.
+ 1 APPPATH\Controllers\AdminController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combinedata', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:07:14 --> ErrorException: Undefined variable $combinedata
+in APPPATH\Controllers\AdminController.php on line 68.
+ 1 APPPATH\Controllers\AdminController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combinedata', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:07:15 --> ErrorException: Undefined variable $combinedata
+in APPPATH\Controllers\AdminController.php on line 68.
+ 1 APPPATH\Controllers\AdminController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combinedata', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:07:20 --> ErrorException: Undefined variable $combineddata
+in APPPATH\Controllers\AdminController.php on line 68.
+ 1 APPPATH\Controllers\AdminController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combineddata', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\AdminController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 06:09:07 --> ErrorException: Undefined variable $jp
+in APPPATH\Views\admin\pages\jobseekers.php on line 45.
+ 1 APPPATH\Views\admin\pages\jobseekers.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jp', 'D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\jobseekers.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\jobseekers.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/jobseekers', [], true)
+ 5 APPPATH\Controllers\AdminController.php(68): view('admin/pages/jobseekers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-28 13:25:05 --> ErrorException: Undefined variable $pi
+in APPPATH\Views\admin\pages\jobseekers.php on line 44.
+ 1 APPPATH\Views\admin\pages\jobseekers.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pi', 'D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\jobseekers.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\jobseekers.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/jobseekers', [], true)
+ 5 APPPATH\Controllers\AdminController.php(69): view('admin/pages/jobseekers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

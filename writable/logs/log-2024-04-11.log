@@ -1,0 +1,220 @@
+CRITICAL - 2024-04-11 06:00:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/pages/viewdetailsjobseekersemp.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/viewdetailsjobseekersemp.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/viewdetailsjobseekersemp', [], true)
+ 3 APPPATH\Controllers\EmployerController.php(31): view('admin/pages/viewdetailsjobseekersemp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->viewdetailsjobseekersemp()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-11 06:00:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "employer/pages/viewdetailsjobseekersemp.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employer/pages/viewdetailsjobseekersemp.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/viewdetailsjobseekersemp', [], true)
+ 3 APPPATH\Controllers\EmployerController.php(31): view('employer/pages/viewdetailsjobseekersemp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->viewdetailsjobseekersemp()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-11 06:01:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "employer/pages/viewdetailsjobseekersemp.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employer/pages/viewdetailsjobseekersemp.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/viewdetailsjobseekersemp', [], true)
+ 3 APPPATH\Controllers\EmployerController.php(31): view('employer/pages/viewdetailsjobseekersemp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->viewdetailsjobseekersemp()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-11 06:11:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "employer/pages/viewdetailsjobseekersemp.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employer/pages/viewdetailsjobseekersemp.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/viewdetailsjobseekersemp', [], true)
+ 3 APPPATH\Controllers\EmployerController.php(31): view('employer/pages/viewdetailsjobseekersemp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->viewdetailsjobseekersemp()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-11 06:11:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "employer/pages/viewdetailsjobseekersemp.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employer/pages/viewdetailsjobseekersemp.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/viewdetailsjobseekersemp', [], true)
+ 3 APPPATH\Controllers\EmployerController.php(31): view('employer/pages/viewdetailsjobseekersemp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->viewdetailsjobseekersemp()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-11 06:12:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "employer/pages/viewdetailsjobseekersemp.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employer/pages/viewdetailsjobseekersemp.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/viewdetailsjobseekersemp', [], true)
+ 3 APPPATH\Controllers\EmployerController.php(31): view('employer/pages/viewdetailsjobseekersemp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->viewdetailsjobseekersemp()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-11 06:13:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "employer/pages/viewdetailsjobseekersemp.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employer/pages/viewdetailsjobseekersemp.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/viewdetailsjobseekersemp', [], true)
+ 3 APPPATH\Controllers\EmployerController.php(31): view('employer/pages/viewdetailsjobseekersemp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->viewdetailsjobseekersemp()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-11 06:13:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "employer/pages/viewdetailsjobseekersemp.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employer/pages/viewdetailsjobseekersemp.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/viewdetailsjobseekersemp', [], true)
+ 3 APPPATH\Controllers\EmployerController.php(31): view('employer/pages/viewdetailsjobseekersemp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->viewdetailsjobseekersemp()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-11 06:15:55 --> ErrorException: Undefined variable $empdata
+in APPPATH\Views\employer\inc\sidebar.php on line 27.
+ 1 APPPATH\Views\employer\inc\sidebar.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empdata', 'D:\\laragon\\www\\citypeso\\app\\Views\\employer\\inc\\sidebar.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\employer\\inc\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('employer/inc/sidebar', null, true)
+ 5 APPPATH\Views\employer\pages\viewdetailsjobseekeremp.php(5): CodeIgniter\View\View->include('employer/inc/sidebar')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\viewdetailsjobseekeremp.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/viewdetailsjobseekeremp', [], true)
+ 9 APPPATH\Controllers\EmployerController.php(31): view('employer/pages/viewdetailsjobseekeremp', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->viewdetailsjobseekersemp()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-11 06:21:14 --> ErrorException: Undefined array key "renewalLicense"
+in APPPATH\Views\employer\pages\viewdetailsjobseekeremp.php on line 38.
+ 1 APPPATH\Views\employer\pages\viewdetailsjobseekeremp.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "renewalLicense"', 'D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\viewdetailsjobseekeremp.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\viewdetailsjobseekeremp.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/viewdetailsjobseekeremp', [], true)
+ 5 APPPATH\Controllers\EmployerController.php(35): view('employer/pages/viewdetailsjobseekeremp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->viewdetailsjobseekersemp()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-11 09:14:12 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "errorPage" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('errorPage')
+ 2 APPPATH\Controllers\EmployerController.php(95): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerjobs()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-11 09:14:17 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "errorPage" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('errorPage')
+ 2 APPPATH\Controllers\EmployerController.php(95): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerjobs()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-11 09:14:26 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "errorPage" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('errorPage')
+ 2 APPPATH\Controllers\EmployerController.php(53): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerhome()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-11 09:14:27 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "errorPage" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('errorPage')
+ 2 APPPATH\Controllers\EmployerController.php(53): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerhome()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-11 09:14:52 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "errorPage" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('errorPage')
+ 2 APPPATH\Controllers\EmployerController.php(53): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerhome()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-11 09:15:30 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "errorPage" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('errorPage')
+ 2 APPPATH\Controllers\EmployerController.php(53): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerhome()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-04-11 11:36:03 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'citypeso', 3306, '', 0)
+#1 C:\laragon\www\citypeso\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\citypeso\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\citypeso\app\Controllers\EmployerController.php(271): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\EmployerController->employerSignupProcess()
+#9 C:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+#10 C:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\citypeso\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\citypeso\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#3 C:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#5 C:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\laragon\www\citypeso\app\Controllers\EmployerController.php(271): CodeIgniter\Model->insert(Array)
+#7 C:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\EmployerController->employerSignupProcess()
+#8 C:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+#9 C:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-04-11 11:36:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employerlogin` (`fullName`, `emailAddress`, `password`, `activationKey`) VALUES (:fullName:, :emailAddress:, :password:, :activationKey:)', [...], false)
+ 3 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\EmployerController.php(271): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerSignupProcess()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-11 13:15:59 --> ErrorException: Undefined variable $profileStatus
+in APPPATH\Views\admin\pages\employerdata.php on line 111.
+ 1 APPPATH\Views\admin\pages\employerdata.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profileStatus', 'C:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\employerdata.php', 111)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\citypeso\\app\\Views\\admin\\pages\\employerdata.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/employerdata', [], true)
+ 5 APPPATH\Controllers\AdminController.php(294): view('admin/pages/employerdata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->getEmployer()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\citypeso\\public\\index.php')

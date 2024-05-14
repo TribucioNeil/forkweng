@@ -1,0 +1,32 @@
+CRITICAL - 2024-02-14 02:53:22 --> ParseError: syntax error, unexpected token "endforeach"
+in APPPATH\Views\admin\pages\employers.php on line 60.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/employers', [], true)
+ 3 APPPATH\Controllers\AdminController.php(35): view('admin/pages/employers', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->employer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-14 02:54:17 --> ParseError: syntax error, unexpected token "endforeach"
+in APPPATH\Views\admin\pages\employers.php on line 60.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/employers', [], true)
+ 3 APPPATH\Controllers\AdminController.php(35): view('admin/pages/employers', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->employer()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-14 05:29:19 --> ErrorException: Undefined array key "profileStatus"
+in APPPATH\Views\employer\pages\applicants.php on line 51.
+ 1 APPPATH\Views\employer\pages\applicants.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profileStatus"', 'D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\applicants.php', 51)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\applicants.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/applicants', [], true)
+ 5 APPPATH\Controllers\EmployerController.php(41): view('employer/pages/applicants', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerapplicants()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

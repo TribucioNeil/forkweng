@@ -1,0 +1,49 @@
+CRITICAL - 2024-01-29 01:13:54 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\JobseekerController.php on line 80.
+ 1 APPPATH\Controllers\JobseekerController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jresendemail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-01-29 01:14:20 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\JobseekerController.php on line 80.
+ 1 APPPATH\Controllers\JobseekerController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jresendemail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-01-29 01:14:22 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\JobseekerController.php on line 80.
+ 1 APPPATH\Controllers\JobseekerController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jresendemail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-01-29 03:26:29 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in D:\laragon\www\citypeso\app\Config\Routes.php on line 39
+in SYSTEMPATH\Router\RouteCollection.php on line 1017.
+ 1 APPPATH\Config\Routes.php(39): CodeIgniter\Router\RouteCollection->get([...], 'jloginprocess', 'JobseekerController::jloginprocess')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\citypeso\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-01-29 03:32:29 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\JobseekerController.php on line 176.
+ 1 APPPATH\Controllers\JobseekerController.php(176): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 176)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jsignupprocess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-01-29 20:36:04 --> ErrorException: Undefined property: App\Controllers\JobseekerController::$session
+in APPPATH\Controllers\JobseekerController.php on line 91.
+ 1 APPPATH\Controllers\JobseekerController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\JobseekerController::$session', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jloginprocess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

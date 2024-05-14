@@ -1,0 +1,68 @@
+CRITICAL - 2024-04-10 14:17:57 --> TypeError: explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\JobseekerController.php on line 1156.
+ 1 APPPATH\Controllers\JobseekerController.php(1156): explode(',', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->applyNowProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-10 14:22:02 --> TypeError: explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\JobseekerController.php on line 1156.
+ 1 APPPATH\Controllers\JobseekerController.php(1156): explode(',', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->applyNowProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-10 14:22:20 --> TypeError: explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\JobseekerController.php on line 1156.
+ 1 APPPATH\Controllers\JobseekerController.php(1156): explode(',', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->applyNowProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-10 14:34:32 --> Error: Call to a member function isValid() on array
+in APPPATH\Controllers\JobseekerController.php on line 1160.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->applyNowProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-10 14:36:24 --> ParseError: syntax error, unexpected token ")", expecting "->" or "?->" or "{" or "["
+in APPPATH\Controllers\JobseekerController.php on line 1160.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JobseekerController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JobseekerController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\JobseekerController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-10 17:59:58 --> ParseError: syntax error, unexpected token "endforeach"
+in APPPATH\Views\employer\pages\applicants.php on line 76.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/applicants', [], true)
+ 3 APPPATH\Controllers\EmployerController.php(97): view('employer/pages/applicants', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerapplicants()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-10 18:03:23 --> ParseError: syntax error, unexpected token "endforeach"
+in APPPATH\Views\employer\pages\applicants.php on line 76.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/applicants', [], true)
+ 3 APPPATH\Controllers\EmployerController.php(97): view('employer/pages/applicants', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerapplicants()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-10 18:07:22 --> Error: Class "App\Controllers\HTTP_Request2" not found
+in APPPATH\Controllers\EmployerController.php on line 632.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->hireApplicant()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

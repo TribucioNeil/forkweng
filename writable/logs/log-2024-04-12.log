@@ -1,0 +1,72 @@
+CRITICAL - 2024-04-12 01:09:58 --> ErrorException: Undefined array key "exchangeCommision"
+in APPPATH\Views\employer\pages\companyprofile.php on line 139.
+ 1 APPPATH\Views\employer\pages\companyprofile.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "exchangeCommision"', 'D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\companyprofile.php', 139)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\citypeso\\app\\Views\\employer\\pages\\companyprofile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/companyprofile', [], true)
+ 5 APPPATH\Controllers\EmployerController.php(72): view('employer/pages/companyprofile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerprofile()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-12 01:24:54 --> Error: Call to a member function isValid() on array
+in APPPATH\Controllers\EmployerController.php on line 438.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->companyProfileProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-12 02:29:18 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\EmployerController.php on line 462.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->companyProfileProcess()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-12 05:35:05 --> ParseError: syntax error, unexpected token "endif"
+in APPPATH\Views\employer\pages\viewdetailsjobseekeremp.php on line 73.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('employer/pages/viewdetailsjobseekeremp', [], true)
+ 3 APPPATH\Controllers\EmployerController.php(38): view('employer/pages/viewdetailsjobseekeremp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->viewdetailsjobseekersemp()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-12 05:40:49 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\EmployerController.php on line 31.
+ 1 APPPATH\Controllers\EmployerController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\EmployerController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->viewdetailsjobseekersemp()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-12 17:48:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/pages/no_results.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/no_results.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/no_results', [], true)
+ 3 APPPATH\Controllers\AdminController.php(87): view('admin/pages/no_results')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->searchJobseekers()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-12 17:48:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/pages/no_results.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/no_results.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/no_results', [], true)
+ 3 APPPATH\Controllers\AdminController.php(87): view('admin/pages/no_results')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->searchJobseekers()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-04-12 18:58:21 --> ErrorException: Undefined variable $captchaInput
+in APPPATH\Controllers\JobseekerController.php on line 449.
+ 1 APPPATH\Controllers\JobseekerController.php(449): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $captchaInput', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 449)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jsignupprocess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

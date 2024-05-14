@@ -1,0 +1,841 @@
+ERROR - 2024-02-03 01:31:11 --> mysqli_sql_exception: Column 'OthersRead' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jo...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(377): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-03 01:31:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'OthersRead' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\JobseekerController.php(377): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 01:31:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'OthersRead' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'No\', \'Yes\', \'No\', \'No\', \'No\', \'Yes\', \'No\', \'No\', \'\', NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'No\', \'Yes\', \'No\', \'No\', \'No\', \'Yes\', \'No\', \'No\', \'\', NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\JobseekerController.php(377): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 01:31:11 --> [Caused by] mysqli_sql_exception: Column 'OthersRead' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'No\', \'Yes\', \'No\', \'No\', \'No\', \'Yes\', \'No\', \'No\', \'\', NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'No\', \'Yes\', \'No\', \'No\', \'No\', \'Yes\', \'No\', \'No\', \'\', NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (\'No\', \'Yes\', \'No\', \'No\', \'No\', \'Yes\', \'No\', \'No\', \'\', NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerlanguage` (`EnglishRead`, `EnglishWrite`, `EnglishSpeak`, `EnglishUnderstand`, `FilipinoRead`, `FilipinoWrite`, `FilipinoSpeak`, `FilipinoUnderstand`, `OthersLanguage`, `OthersRead`, `OthersWrite`, `OthersSpeak`, `OthersUnderstand`) VALUES (:EnglishRead:, :EnglishWrite:, :EnglishSpeak:, :EnglishUnderstand:, :FilipinoRead:, :FilipinoWrite:, :FilipinoSpeak:, :FilipinoUnderstand:, :OthersLanguage:, :OthersRead:, :OthersWrite:, :OthersSpeak:, :OthersUnderstand:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\JobseekerController.php(377): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerLanguage()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-03 02:16:51 --> mysqli_sql_exception: Unknown column 'ElementaryAward' in 'field list' in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jo...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(434): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerEducBackground()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-03 02:16:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ElementaryAward' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAward`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (:ElementarySchool:, :ElementaryYearGrad:, :ElementaryLevel:, :ElementaryLastAttend:, :ElementaryAward:, :SecondarySchool:, :SecondaryCourse:, :SecondaryYearGrad:, :SecondaryLevel:, :SecondaryLastAttend:, :SecondaryAwards:, :TertiarySchool:, :TertiaryCourse:, :TertiaryYearGrad:, :TertiaryLevel:, :TertiaryLastAttend:, :TertiaryAwards:, :GradStudiesSchool:, :GradStudiesCourse:, :GradStudiesYearGrad:, :GradStudiesAward:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\JobseekerController.php(434): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerEducBackground()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 02:16:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ElementaryAward' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAward`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (\'rte\', \'uyt\', \'guy\', \'uy\', \'\', \'uy\', \'u\', \'yu\', \'y\', \'uy\', \'y\', \'u\', \'y\', \'uy\', \'uyu\', \'u\', \'yu\', \'hg\', \'u\', \'yu\', \'uyg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAward`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (\'rte\', \'uyt\', \'guy\', \'uy\', \'\', \'uy\', \'u\', \'yu\', \'y\', \'uy\', \'y\', \'u\', \'y\', \'uy\', \'uyu\', \'u\', \'yu\', \'hg\', \'u\', \'yu\', \'uyg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAward`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (:ElementarySchool:, :ElementaryYearGrad:, :ElementaryLevel:, :ElementaryLastAttend:, :ElementaryAward:, :SecondarySchool:, :SecondaryCourse:, :SecondaryYearGrad:, :SecondaryLevel:, :SecondaryLastAttend:, :SecondaryAwards:, :TertiarySchool:, :TertiaryCourse:, :TertiaryYearGrad:, :TertiaryLevel:, :TertiaryLastAttend:, :TertiaryAwards:, :GradStudiesSchool:, :GradStudiesCourse:, :GradStudiesYearGrad:, :GradStudiesAward:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\JobseekerController.php(434): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerEducBackground()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 02:16:51 --> [Caused by] mysqli_sql_exception: Unknown column 'ElementaryAward' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAward`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (\'rte\', \'uyt\', \'guy\', \'uy\', \'\', \'uy\', \'u\', \'yu\', \'y\', \'uy\', \'y\', \'u\', \'y\', \'uy\', \'uyu\', \'u\', \'yu\', \'hg\', \'u\', \'yu\', \'uyg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAward`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (\'rte\', \'uyt\', \'guy\', \'uy\', \'\', \'uy\', \'u\', \'yu\', \'y\', \'uy\', \'y\', \'u\', \'y\', \'uy\', \'uyu\', \'u\', \'yu\', \'hg\', \'u\', \'yu\', \'uyg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAward`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (\'rte\', \'uyt\', \'guy\', \'uy\', \'\', \'uy\', \'u\', \'yu\', \'y\', \'uy\', \'y\', \'u\', \'y\', \'uy\', \'uyu\', \'u\', \'yu\', \'hg\', \'u\', \'yu\', \'uyg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAward`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (:ElementarySchool:, :ElementaryYearGrad:, :ElementaryLevel:, :ElementaryLastAttend:, :ElementaryAward:, :SecondarySchool:, :SecondaryCourse:, :SecondaryYearGrad:, :SecondaryLevel:, :SecondaryLastAttend:, :SecondaryAwards:, :TertiarySchool:, :TertiaryCourse:, :TertiaryYearGrad:, :TertiaryLevel:, :TertiaryLastAttend:, :TertiaryAwards:, :GradStudiesSchool:, :GradStudiesCourse:, :GradStudiesYearGrad:, :GradStudiesAward:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\JobseekerController.php(434): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerEducBackground()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-03 02:41:01 --> mysqli_sql_exception: Column 'ElementarySchool' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jo...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(436): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerEducBackground()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-03 02:41:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'ElementarySchool' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (:ElementarySchool:, :ElementaryYearGrad:, :ElementaryLevel:, :ElementaryLastAttend:, :ElementaryAwards:, :SecondarySchool:, :SecondaryCourse:, :SecondaryYearGrad:, :SecondaryLevel:, :SecondaryLastAttend:, :SecondaryAwards:, :TertiarySchool:, :TertiaryCourse:, :TertiaryYearGrad:, :TertiaryLevel:, :TertiaryLastAttend:, :TertiaryAwards:, :GradStudiesSchool:, :GradStudiesCourse:, :GradStudiesYearGrad:, :GradStudiesAward:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\JobseekerController.php(436): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerEducBackground()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 02:41:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'ElementarySchool' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (:ElementarySchool:, :ElementaryYearGrad:, :ElementaryLevel:, :ElementaryLastAttend:, :ElementaryAwards:, :SecondarySchool:, :SecondaryCourse:, :SecondaryYearGrad:, :SecondaryLevel:, :SecondaryLastAttend:, :SecondaryAwards:, :TertiarySchool:, :TertiaryCourse:, :TertiaryYearGrad:, :TertiaryLevel:, :TertiaryLastAttend:, :TertiaryAwards:, :GradStudiesSchool:, :GradStudiesCourse:, :GradStudiesYearGrad:, :GradStudiesAward:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\JobseekerController.php(436): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerEducBackground()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 02:41:01 --> [Caused by] mysqli_sql_exception: Column 'ElementarySchool' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (:ElementarySchool:, :ElementaryYearGrad:, :ElementaryLevel:, :ElementaryLastAttend:, :ElementaryAwards:, :SecondarySchool:, :SecondaryCourse:, :SecondaryYearGrad:, :SecondaryLevel:, :SecondaryLastAttend:, :SecondaryAwards:, :TertiarySchool:, :TertiaryCourse:, :TertiaryYearGrad:, :TertiaryLevel:, :TertiaryLastAttend:, :TertiaryAwards:, :GradStudiesSchool:, :GradStudiesCourse:, :GradStudiesYearGrad:, :GradStudiesAward:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\JobseekerController.php(436): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerEducBackground()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-03 02:42:00 --> mysqli_sql_exception: Column 'ElementarySchool' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jo...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(436): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerEducBackground()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-03 02:42:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'ElementarySchool' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (:ElementarySchool:, :ElementaryYearGrad:, :ElementaryLevel:, :ElementaryLastAttend:, :ElementaryAwards:, :SecondarySchool:, :SecondaryCourse:, :SecondaryYearGrad:, :SecondaryLevel:, :SecondaryLastAttend:, :SecondaryAwards:, :TertiarySchool:, :TertiaryCourse:, :TertiaryYearGrad:, :TertiaryLevel:, :TertiaryLastAttend:, :TertiaryAwards:, :GradStudiesSchool:, :GradStudiesCourse:, :GradStudiesYearGrad:, :GradStudiesAward:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\JobseekerController.php(436): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerEducBackground()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 02:42:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'ElementarySchool' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (:ElementarySchool:, :ElementaryYearGrad:, :ElementaryLevel:, :ElementaryLastAttend:, :ElementaryAwards:, :SecondarySchool:, :SecondaryCourse:, :SecondaryYearGrad:, :SecondaryLevel:, :SecondaryLastAttend:, :SecondaryAwards:, :TertiarySchool:, :TertiaryCourse:, :TertiaryYearGrad:, :TertiaryLevel:, :TertiaryLastAttend:, :TertiaryAwards:, :GradStudiesSchool:, :GradStudiesCourse:, :GradStudiesYearGrad:, :GradStudiesAward:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\JobseekerController.php(436): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerEducBackground()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 02:42:00 --> [Caused by] mysqli_sql_exception: Column 'ElementarySchool' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (:ElementarySchool:, :ElementaryYearGrad:, :ElementaryLevel:, :ElementaryLastAttend:, :ElementaryAwards:, :SecondarySchool:, :SecondaryCourse:, :SecondaryYearGrad:, :SecondaryLevel:, :SecondaryLastAttend:, :SecondaryAwards:, :TertiarySchool:, :TertiaryCourse:, :TertiaryYearGrad:, :TertiaryLevel:, :TertiaryLastAttend:, :TertiaryAwards:, :GradStudiesSchool:, :GradStudiesCourse:, :GradStudiesYearGrad:, :GradStudiesAward:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\JobseekerController.php(436): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerEducBackground()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-03 02:43:28 --> mysqli_sql_exception: Column 'ElementarySchool' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jo...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(436): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerEducBackground()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-03 02:43:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'ElementarySchool' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (:ElementarySchool:, :ElementaryYearGrad:, :ElementaryLevel:, :ElementaryLastAttend:, :ElementaryAwards:, :SecondarySchool:, :SecondaryCourse:, :SecondaryYearGrad:, :SecondaryLevel:, :SecondaryLastAttend:, :SecondaryAwards:, :TertiarySchool:, :TertiaryCourse:, :TertiaryYearGrad:, :TertiaryLevel:, :TertiaryLastAttend:, :TertiaryAwards:, :GradStudiesSchool:, :GradStudiesCourse:, :GradStudiesYearGrad:, :GradStudiesAward:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\JobseekerController.php(436): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerEducBackground()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 02:43:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'ElementarySchool' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (:ElementarySchool:, :ElementaryYearGrad:, :ElementaryLevel:, :ElementaryLastAttend:, :ElementaryAwards:, :SecondarySchool:, :SecondaryCourse:, :SecondaryYearGrad:, :SecondaryLevel:, :SecondaryLastAttend:, :SecondaryAwards:, :TertiarySchool:, :TertiaryCourse:, :TertiaryYearGrad:, :TertiaryLevel:, :TertiaryLastAttend:, :TertiaryAwards:, :GradStudiesSchool:, :GradStudiesCourse:, :GradStudiesYearGrad:, :GradStudiesAward:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\JobseekerController.php(436): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerEducBackground()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 02:43:28 --> [Caused by] mysqli_sql_exception: Column 'ElementarySchool' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekereducback` (`ElementarySchool`, `ElementaryYearGrad`, `ElementaryLevel`, `ElementaryLastAttend`, `ElementaryAwards`, `SecondarySchool`, `SecondaryCourse`, `SecondaryYearGrad`, `SecondaryLevel`, `SecondaryLastAttend`, `SecondaryAwards`, `TertiarySchool`, `TertiaryCourse`, `TertiaryYearGrad`, `TertiaryLevel`, `TertiaryLastAttend`, `TertiaryAwards`, `GradStudiesSchool`, `GradStudiesCourse`, `GradStudiesYearGrad`, `GradStudiesAward`) VALUES (:ElementarySchool:, :ElementaryYearGrad:, :ElementaryLevel:, :ElementaryLastAttend:, :ElementaryAwards:, :SecondarySchool:, :SecondaryCourse:, :SecondaryYearGrad:, :SecondaryLevel:, :SecondaryLastAttend:, :SecondaryAwards:, :TertiarySchool:, :TertiaryCourse:, :TertiaryYearGrad:, :TertiaryLevel:, :TertiaryLastAttend:, :TertiaryAwards:, :GradStudiesSchool:, :GradStudiesCourse:, :GradStudiesYearGrad:, :GradStudiesAward:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\JobseekerController.php(436): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jobseekerEducBackground()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-03 03:03:35 --> mysqli_sql_exception: Column 'TrainingTitle1' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jo...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(475): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->vocationalAndTraining()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-03 03:03:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'TrainingTitle1' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekertraining` (`TrainingTitle1`, `TrainingDuration1`, `TrainingInstitution1`, `TrainingCertificate1`, `TrainingTitle2`, `TrainingDuration2`, `TrainingInstitution2`, `TrainingCertificate2`, `TrainingTitle3`, `TrainingDuration3`, `TrainingInstitution3`, `TrainingCertificate3`) VALUES (:TrainingTitle1:, :TrainingDuration1:, :TrainingInstitution1:, :TrainingCertificate1:, :TrainingTitle2:, :TrainingDuration2:, :TrainingInstitution2:, :TrainingCertificate2:, :TrainingTitle3:, :TrainingDuration3:, :TrainingInstitution3:, :TrainingCertificate3:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\JobseekerController.php(475): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->vocationalAndTraining()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 03:03:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'TrainingTitle1' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekertraining` (`TrainingTitle1`, `TrainingDuration1`, `TrainingInstitution1`, `TrainingCertificate1`, `TrainingTitle2`, `TrainingDuration2`, `TrainingInstitution2`, `TrainingCertificate2`, `TrainingTitle3`, `TrainingDuration3`, `TrainingInstitution3`, `TrainingCertificate3`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekertraining` (`TrainingTitle1`, `TrainingDuration1`, `TrainingInstitution1`, `TrainingCertificate1`, `TrainingTitle2`, `TrainingDuration2`, `TrainingInstitution2`, `TrainingCertificate2`, `TrainingTitle3`, `TrainingDuration3`, `TrainingInstitution3`, `TrainingCertificate3`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekertraining` (`TrainingTitle1`, `TrainingDuration1`, `TrainingInstitution1`, `TrainingCertificate1`, `TrainingTitle2`, `TrainingDuration2`, `TrainingInstitution2`, `TrainingCertificate2`, `TrainingTitle3`, `TrainingDuration3`, `TrainingInstitution3`, `TrainingCertificate3`) VALUES (:TrainingTitle1:, :TrainingDuration1:, :TrainingInstitution1:, :TrainingCertificate1:, :TrainingTitle2:, :TrainingDuration2:, :TrainingInstitution2:, :TrainingCertificate2:, :TrainingTitle3:, :TrainingDuration3:, :TrainingInstitution3:, :TrainingCertificate3:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\JobseekerController.php(475): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->vocationalAndTraining()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 03:03:35 --> [Caused by] mysqli_sql_exception: Column 'TrainingTitle1' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jobseekertraining` (`TrainingTitle1`, `TrainingDuration1`, `TrainingInstitution1`, `TrainingCertificate1`, `TrainingTitle2`, `TrainingDuration2`, `TrainingInstitution2`, `TrainingCertificate2`, `TrainingTitle3`, `TrainingDuration3`, `TrainingInstitution3`, `TrainingCertificate3`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekertraining` (`TrainingTitle1`, `TrainingDuration1`, `TrainingInstitution1`, `TrainingCertificate1`, `TrainingTitle2`, `TrainingDuration2`, `TrainingInstitution2`, `TrainingCertificate2`, `TrainingTitle3`, `TrainingDuration3`, `TrainingInstitution3`, `TrainingCertificate3`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekertraining` (`TrainingTitle1`, `TrainingDuration1`, `TrainingInstitution1`, `TrainingCertificate1`, `TrainingTitle2`, `TrainingDuration2`, `TrainingInstitution2`, `TrainingCertificate2`, `TrainingTitle3`, `TrainingDuration3`, `TrainingInstitution3`, `TrainingCertificate3`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekertraining` (`TrainingTitle1`, `TrainingDuration1`, `TrainingInstitution1`, `TrainingCertificate1`, `TrainingTitle2`, `TrainingDuration2`, `TrainingInstitution2`, `TrainingCertificate2`, `TrainingTitle3`, `TrainingDuration3`, `TrainingInstitution3`, `TrainingCertificate3`) VALUES (:TrainingTitle1:, :TrainingDuration1:, :TrainingInstitution1:, :TrainingCertificate1:, :TrainingTitle2:, :TrainingDuration2:, :TrainingInstitution2:, :TrainingCertificate2:, :TrainingTitle3:, :TrainingDuration3:, :TrainingInstitution3:, :TrainingCertificate3:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\JobseekerController.php(475): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->vocationalAndTraining()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-03 03:04:03 --> mysqli_sql_exception: Column 'TrainingTitle1' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jo...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(475): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->vocationalAndTraining()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-03 03:04:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'TrainingTitle1' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekertraining` (`TrainingTitle1`, `TrainingDuration1`, `TrainingInstitution1`, `TrainingCertificate1`, `TrainingTitle2`, `TrainingDuration2`, `TrainingInstitution2`, `TrainingCertificate2`, `TrainingTitle3`, `TrainingDuration3`, `TrainingInstitution3`, `TrainingCertificate3`) VALUES (:TrainingTitle1:, :TrainingDuration1:, :TrainingInstitution1:, :TrainingCertificate1:, :TrainingTitle2:, :TrainingDuration2:, :TrainingInstitution2:, :TrainingCertificate2:, :TrainingTitle3:, :TrainingDuration3:, :TrainingInstitution3:, :TrainingCertificate3:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\JobseekerController.php(475): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->vocationalAndTraining()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 03:04:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'TrainingTitle1' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekertraining` (`TrainingTitle1`, `TrainingDuration1`, `TrainingInstitution1`, `TrainingCertificate1`, `TrainingTitle2`, `TrainingDuration2`, `TrainingInstitution2`, `TrainingCertificate2`, `TrainingTitle3`, `TrainingDuration3`, `TrainingInstitution3`, `TrainingCertificate3`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekertraining` (`TrainingTitle1`, `TrainingDuration1`, `TrainingInstitution1`, `TrainingCertificate1`, `TrainingTitle2`, `TrainingDuration2`, `TrainingInstitution2`, `TrainingCertificate2`, `TrainingTitle3`, `TrainingDuration3`, `TrainingInstitution3`, `TrainingCertificate3`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekertraining` (`TrainingTitle1`, `TrainingDuration1`, `TrainingInstitution1`, `TrainingCertificate1`, `TrainingTitle2`, `TrainingDuration2`, `TrainingInstitution2`, `TrainingCertificate2`, `TrainingTitle3`, `TrainingDuration3`, `TrainingInstitution3`, `TrainingCertificate3`) VALUES (:TrainingTitle1:, :TrainingDuration1:, :TrainingInstitution1:, :TrainingCertificate1:, :TrainingTitle2:, :TrainingDuration2:, :TrainingInstitution2:, :TrainingCertificate2:, :TrainingTitle3:, :TrainingDuration3:, :TrainingInstitution3:, :TrainingCertificate3:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\JobseekerController.php(475): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->vocationalAndTraining()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 03:04:03 --> [Caused by] mysqli_sql_exception: Column 'TrainingTitle1' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jobseekertraining` (`TrainingTitle1`, `TrainingDuration1`, `TrainingInstitution1`, `TrainingCertificate1`, `TrainingTitle2`, `TrainingDuration2`, `TrainingInstitution2`, `TrainingCertificate2`, `TrainingTitle3`, `TrainingDuration3`, `TrainingInstitution3`, `TrainingCertificate3`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekertraining` (`TrainingTitle1`, `TrainingDuration1`, `TrainingInstitution1`, `TrainingCertificate1`, `TrainingTitle2`, `TrainingDuration2`, `TrainingInstitution2`, `TrainingCertificate2`, `TrainingTitle3`, `TrainingDuration3`, `TrainingInstitution3`, `TrainingCertificate3`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekertraining` (`TrainingTitle1`, `TrainingDuration1`, `TrainingInstitution1`, `TrainingCertificate1`, `TrainingTitle2`, `TrainingDuration2`, `TrainingInstitution2`, `TrainingCertificate2`, `TrainingTitle3`, `TrainingDuration3`, `TrainingInstitution3`, `TrainingCertificate3`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekertraining` (`TrainingTitle1`, `TrainingDuration1`, `TrainingInstitution1`, `TrainingCertificate1`, `TrainingTitle2`, `TrainingDuration2`, `TrainingInstitution2`, `TrainingCertificate2`, `TrainingTitle3`, `TrainingDuration3`, `TrainingInstitution3`, `TrainingCertificate3`) VALUES (:TrainingTitle1:, :TrainingDuration1:, :TrainingInstitution1:, :TrainingCertificate1:, :TrainingTitle2:, :TrainingDuration2:, :TrainingInstitution2:, :TrainingCertificate2:, :TrainingTitle3:, :TrainingDuration3:, :TrainingInstitution3:, :TrainingCertificate3:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\JobseekerController.php(475): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->vocationalAndTraining()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 03:04:15 --> ErrorException: Undefined property: App\Controllers\JobseekerController::$elodel
+in APPPATH\Controllers\JobseekerController.php on line 508.
+ 1 APPPATH\Controllers\JobseekerController.php(508): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\JobseekerController::$elodel', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 508)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->eligibilityLicense()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 03:04:28 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 788.
+ 1 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\JobseekerController.php(508): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->eligibilityLicense()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 03:04:40 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 788.
+ 1 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\JobseekerController.php(508): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->eligibilityLicense()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 03:49:47 --> ErrorException: Cannot redeclare App\Controllers\JobseekerController::eligibilityLicense()
+in APPPATH\Controllers\JobseekerController.php on line 516.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-02-03 03:51:50 --> mysqli_sql_exception: Column 'EligibilityTitle1' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jo...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(510): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->eligibilityLicense()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-03 03:51:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'EligibilityTitle1' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekereligibility` (`EligibilityTitle1`, `EligibilityRating1`, `EligibilityDate1`, `EligibilityTitle2`, `EligibilityRating2`, `EligibilityDate2`, `LicenseTitle1`, `LicenseUntil1`, `LicenseTitle2`, `LicenseUntil2`) VALUES (:EligibilityTitle1:, :EligibilityRating1:, :EligibilityDate1:, :EligibilityTitle2:, :EligibilityRating2:, :EligibilityDate2:, :LicenseTitle1:, :LicenseUntil1:, :LicenseTitle2:, :LicenseUntil2:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\JobseekerController.php(510): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->eligibilityLicense()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 03:51:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'EligibilityTitle1' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekereligibility` (`EligibilityTitle1`, `EligibilityRating1`, `EligibilityDate1`, `EligibilityTitle2`, `EligibilityRating2`, `EligibilityDate2`, `LicenseTitle1`, `LicenseUntil1`, `LicenseTitle2`, `LicenseUntil2`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekereligibility` (`EligibilityTitle1`, `EligibilityRating1`, `EligibilityDate1`, `EligibilityTitle2`, `EligibilityRating2`, `EligibilityDate2`, `LicenseTitle1`, `LicenseUntil1`, `LicenseTitle2`, `LicenseUntil2`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekereligibility` (`EligibilityTitle1`, `EligibilityRating1`, `EligibilityDate1`, `EligibilityTitle2`, `EligibilityRating2`, `EligibilityDate2`, `LicenseTitle1`, `LicenseUntil1`, `LicenseTitle2`, `LicenseUntil2`) VALUES (:EligibilityTitle1:, :EligibilityRating1:, :EligibilityDate1:, :EligibilityTitle2:, :EligibilityRating2:, :EligibilityDate2:, :LicenseTitle1:, :LicenseUntil1:, :LicenseTitle2:, :LicenseUntil2:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\JobseekerController.php(510): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->eligibilityLicense()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 03:51:50 --> [Caused by] mysqli_sql_exception: Column 'EligibilityTitle1' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jobseekereligibility` (`EligibilityTitle1`, `EligibilityRating1`, `EligibilityDate1`, `EligibilityTitle2`, `EligibilityRating2`, `EligibilityDate2`, `LicenseTitle1`, `LicenseUntil1`, `LicenseTitle2`, `LicenseUntil2`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekereligibility` (`EligibilityTitle1`, `EligibilityRating1`, `EligibilityDate1`, `EligibilityTitle2`, `EligibilityRating2`, `EligibilityDate2`, `LicenseTitle1`, `LicenseUntil1`, `LicenseTitle2`, `LicenseUntil2`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekereligibility` (`EligibilityTitle1`, `EligibilityRating1`, `EligibilityDate1`, `EligibilityTitle2`, `EligibilityRating2`, `EligibilityDate2`, `LicenseTitle1`, `LicenseUntil1`, `LicenseTitle2`, `LicenseUntil2`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekereligibility` (`EligibilityTitle1`, `EligibilityRating1`, `EligibilityDate1`, `EligibilityTitle2`, `EligibilityRating2`, `EligibilityDate2`, `LicenseTitle1`, `LicenseUntil1`, `LicenseTitle2`, `LicenseUntil2`) VALUES (:EligibilityTitle1:, :EligibilityRating1:, :EligibilityDate1:, :EligibilityTitle2:, :EligibilityRating2:, :EligibilityDate2:, :LicenseTitle1:, :LicenseUntil1:, :LicenseTitle2:, :LicenseUntil2:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\JobseekerController.php(510): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->eligibilityLicense()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-03 03:52:41 --> mysqli_sql_exception: Column 'EligibilityTitle1' cannot be null in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jo...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(510): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->eligibilityLicense()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-03 03:52:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'EligibilityTitle1' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekereligibility` (`EligibilityTitle1`, `EligibilityRating1`, `EligibilityDate1`, `EligibilityTitle2`, `EligibilityRating2`, `EligibilityDate2`, `LicenseTitle1`, `LicenseUntil1`, `LicenseTitle2`, `LicenseUntil2`) VALUES (:EligibilityTitle1:, :EligibilityRating1:, :EligibilityDate1:, :EligibilityTitle2:, :EligibilityRating2:, :EligibilityDate2:, :LicenseTitle1:, :LicenseUntil1:, :LicenseTitle2:, :LicenseUntil2:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\JobseekerController.php(510): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->eligibilityLicense()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 03:52:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'EligibilityTitle1' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekereligibility` (`EligibilityTitle1`, `EligibilityRating1`, `EligibilityDate1`, `EligibilityTitle2`, `EligibilityRating2`, `EligibilityDate2`, `LicenseTitle1`, `LicenseUntil1`, `LicenseTitle2`, `LicenseUntil2`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekereligibility` (`EligibilityTitle1`, `EligibilityRating1`, `EligibilityDate1`, `EligibilityTitle2`, `EligibilityRating2`, `EligibilityDate2`, `LicenseTitle1`, `LicenseUntil1`, `LicenseTitle2`, `LicenseUntil2`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekereligibility` (`EligibilityTitle1`, `EligibilityRating1`, `EligibilityDate1`, `EligibilityTitle2`, `EligibilityRating2`, `EligibilityDate2`, `LicenseTitle1`, `LicenseUntil1`, `LicenseTitle2`, `LicenseUntil2`) VALUES (:EligibilityTitle1:, :EligibilityRating1:, :EligibilityDate1:, :EligibilityTitle2:, :EligibilityRating2:, :EligibilityDate2:, :LicenseTitle1:, :LicenseUntil1:, :LicenseTitle2:, :LicenseUntil2:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\JobseekerController.php(510): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->eligibilityLicense()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 03:52:41 --> [Caused by] mysqli_sql_exception: Column 'EligibilityTitle1' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jobseekereligibility` (`EligibilityTitle1`, `EligibilityRating1`, `EligibilityDate1`, `EligibilityTitle2`, `EligibilityRating2`, `EligibilityDate2`, `LicenseTitle1`, `LicenseUntil1`, `LicenseTitle2`, `LicenseUntil2`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekereligibility` (`EligibilityTitle1`, `EligibilityRating1`, `EligibilityDate1`, `EligibilityTitle2`, `EligibilityRating2`, `EligibilityDate2`, `LicenseTitle1`, `LicenseUntil1`, `LicenseTitle2`, `LicenseUntil2`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekereligibility` (`EligibilityTitle1`, `EligibilityRating1`, `EligibilityDate1`, `EligibilityTitle2`, `EligibilityRating2`, `EligibilityDate2`, `LicenseTitle1`, `LicenseUntil1`, `LicenseTitle2`, `LicenseUntil2`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekereligibility` (`EligibilityTitle1`, `EligibilityRating1`, `EligibilityDate1`, `EligibilityTitle2`, `EligibilityRating2`, `EligibilityDate2`, `LicenseTitle1`, `LicenseUntil1`, `LicenseTitle2`, `LicenseUntil2`) VALUES (:EligibilityTitle1:, :EligibilityRating1:, :EligibilityDate1:, :EligibilityTitle2:, :EligibilityRating2:, :EligibilityDate2:, :LicenseTitle1:, :LicenseUntil1:, :LicenseTitle2:, :LicenseUntil2:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\JobseekerController.php(510): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->eligibilityLicense()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 03:52:50 --> ErrorException: Undefined variable $eligibilityA
+in APPPATH\Controllers\JobseekerController.php on line 545.
+ 1 APPPATH\Controllers\JobseekerController.php(545): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eligibilityA', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 545)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->workExperience()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-03 04:47:03 --> mysqli_sql_exception: Unknown column 'DomesticChos' in 'field list' in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jo...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\citypeso\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(625): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->otherSkills()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-03 04:47:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DomesticChos' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerskills` (`AutoMechanic`, `Beautician`, `CarpentryWork`, `ComputerLiterate`, `DomesticChos`, `Driver`, `Electrician`, `Embroidery`, `Gardening`, `Masonry`, `PainterArtist`, `PaintingJobs`, `Photography`, `Plumbing`, `SewingDresses`, `Stenography`, `Tailoring`, `Others`) VALUES (:AutoMechanic:, :Beautician:, :CarpentryWork:, :ComputerLiterate:, :DomesticChos:, :Driver:, :Electrician:, :Embroidery:, :Gardening:, :Masonry:, :PainterArtist:, :PaintingJobs:, :Photography:, :Plumbing:, :SewingDresses:, :Stenography:, :Tailoring:, :Others:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\JobseekerController.php(625): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->otherSkills()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 04:47:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DomesticChos' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerskills` (`AutoMechanic`, `Beautician`, `CarpentryWork`, `ComputerLiterate`, `DomesticChos`, `Driver`, `Electrician`, `Embroidery`, `Gardening`, `Masonry`, `PainterArtist`, `PaintingJobs`, `Photography`, `Plumbing`, `SewingDresses`, `Stenography`, `Tailoring`, `Others`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'Photography\', \'Plumbing\', NULL, NULL, NULL, \'h\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerskills` (`AutoMechanic`, `Beautician`, `CarpentryWork`, `ComputerLiterate`, `DomesticChos`, `Driver`, `Electrician`, `Embroidery`, `Gardening`, `Masonry`, `PainterArtist`, `PaintingJobs`, `Photography`, `Plumbing`, `SewingDresses`, `Stenography`, `Tailoring`, `Others`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'Photography\', \'Plumbing\', NULL, NULL, NULL, \'h\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerskills` (`AutoMechanic`, `Beautician`, `CarpentryWork`, `ComputerLiterate`, `DomesticChos`, `Driver`, `Electrician`, `Embroidery`, `Gardening`, `Masonry`, `PainterArtist`, `PaintingJobs`, `Photography`, `Plumbing`, `SewingDresses`, `Stenography`, `Tailoring`, `Others`) VALUES (:AutoMechanic:, :Beautician:, :CarpentryWork:, :ComputerLiterate:, :DomesticChos:, :Driver:, :Electrician:, :Embroidery:, :Gardening:, :Masonry:, :PainterArtist:, :PaintingJobs:, :Photography:, :Plumbing:, :SewingDresses:, :Stenography:, :Tailoring:, :Others:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\JobseekerController.php(625): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->otherSkills()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 04:47:03 --> [Caused by] mysqli_sql_exception: Unknown column 'DomesticChos' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `jobseekerskills` (`AutoMechanic`, `Beautician`, `CarpentryWork`, `ComputerLiterate`, `DomesticChos`, `Driver`, `Electrician`, `Embroidery`, `Gardening`, `Masonry`, `PainterArtist`, `PaintingJobs`, `Photography`, `Plumbing`, `SewingDresses`, `Stenography`, `Tailoring`, `Others`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'Photography\', \'Plumbing\', NULL, NULL, NULL, \'h\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jobseekerskills` (`AutoMechanic`, `Beautician`, `CarpentryWork`, `ComputerLiterate`, `DomesticChos`, `Driver`, `Electrician`, `Embroidery`, `Gardening`, `Masonry`, `PainterArtist`, `PaintingJobs`, `Photography`, `Plumbing`, `SewingDresses`, `Stenography`, `Tailoring`, `Others`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'Photography\', \'Plumbing\', NULL, NULL, NULL, \'h\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jobseekerskills` (`AutoMechanic`, `Beautician`, `CarpentryWork`, `ComputerLiterate`, `DomesticChos`, `Driver`, `Electrician`, `Embroidery`, `Gardening`, `Masonry`, `PainterArtist`, `PaintingJobs`, `Photography`, `Plumbing`, `SewingDresses`, `Stenography`, `Tailoring`, `Others`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'Photography\', \'Plumbing\', NULL, NULL, NULL, \'h\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jobseekerskills` (`AutoMechanic`, `Beautician`, `CarpentryWork`, `ComputerLiterate`, `DomesticChos`, `Driver`, `Electrician`, `Embroidery`, `Gardening`, `Masonry`, `PainterArtist`, `PaintingJobs`, `Photography`, `Plumbing`, `SewingDresses`, `Stenography`, `Tailoring`, `Others`) VALUES (:AutoMechanic:, :Beautician:, :CarpentryWork:, :ComputerLiterate:, :DomesticChos:, :Driver:, :Electrician:, :Embroidery:, :Gardening:, :Masonry:, :PainterArtist:, :PaintingJobs:, :Photography:, :Plumbing:, :SewingDresses:, :Stenography:, :Tailoring:, :Others:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\JobseekerController.php(625): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->otherSkills()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-03 10:13:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-03 10:13:38 --> 220 smtp.googlemail.com ESMTP iy9-20020a170903130900b001d8fe0ca8desm2955302plb.202 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [143.44.157.2]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK iy9-20020a170903130900b001d8fe0ca8desm2955302plb.202 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. iy9-20020a170903130900b001d8fe0ca8desm2955302plb.202 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. iy9-20020a170903130900b001d8fe0ca8desm2955302plb.202 - gsmtp
+
+quit: 221 2.0.0 closing connection iy9-20020a170903130900b001d8fe0ca8desm2955302plb.202 - gsmtp
+
+ERROR - 2024-02-03 10:17:19 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-03 10:17:19 --> 220 smtp.googlemail.com ESMTP it20-20020a056a00459400b006dddc5e3433sm3185730pfb.147 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [143.44.157.2]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK it20-20020a056a00459400b006dddc5e3433sm3185730pfb.147 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. it20-20020a056a00459400b006dddc5e3433sm3185730pfb.147 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. it20-20020a056a00459400b006dddc5e3433sm3185730pfb.147 - gsmtp
+
+quit: 221 2.0.0 closing connection it20-20020a056a00459400b006dddc5e3433sm3185730pfb.147 - gsmtp
+
+ERROR - 2024-02-03 10:18:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-03 10:18:23 --> 220 smtp.googlemail.com ESMTP l9-20020a17090a3f0900b002966dbf4d82sm542667pjc.26 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [143.44.157.2]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK l9-20020a17090a3f0900b002966dbf4d82sm542667pjc.26 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. l9-20020a17090a3f0900b002966dbf4d82sm542667pjc.26 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. l9-20020a17090a3f0900b002966dbf4d82sm542667pjc.26 - gsmtp
+
+quit: 221 2.0.0 closing connection l9-20020a17090a3f0900b002966dbf4d82sm542667pjc.26 - gsmtp
+
+ERROR - 2024-02-03 10:22:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-03 10:22:08 --> 220 smtp.googlemail.com ESMTP w8-20020a63c108000000b005bdbe9a597fsm3249522pgf.57 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [143.44.157.2]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK w8-20020a63c108000000b005bdbe9a597fsm3249522pgf.57 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. w8-20020a63c108000000b005bdbe9a597fsm3249522pgf.57 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. w8-20020a63c108000000b005bdbe9a597fsm3249522pgf.57 - gsmtp
+
+quit: 221 2.0.0 closing connection w8-20020a63c108000000b005bdbe9a597fsm3249522pgf.57 - gsmtp
+
+CRITICAL - 2024-02-03 10:22:53 --> ErrorException: Undefined array key "<emailAddress>"
+in APPPATH\Controllers\JobseekerController.php on line 198.
+ 1 APPPATH\Controllers\JobseekerController.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "<emailAddress>"', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\JobseekerController.php', 198)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jsignupprocess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-03 10:23:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-03 10:23:11 --> 220 smtp.googlemail.com ESMTP 7-20020a630107000000b005dc09caddd8sm573267pgb.12 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [143.44.157.2]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK 7-20020a630107000000b005dc09caddd8sm573267pgb.12 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. 7-20020a630107000000b005dc09caddd8sm573267pgb.12 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. 7-20020a630107000000b005dc09caddd8sm573267pgb.12 - gsmtp
+
+quit: 221 2.0.0 closing connection 7-20020a630107000000b005dc09caddd8sm573267pgb.12 - gsmtp
+
+CRITICAL - 2024-02-03 10:28:53 --> Error: Object of class CodeIgniter\Email\Email could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('SELECT *
+FROM `jobseekerlogin`
+WHERE `emailAddress` = :emailAddress:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `jobseekerlogin`
+WHERE `emailAddress` = :emailAddress:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jobseekerlogin`
+WHERE `emailAddress` = :emailAddress:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Controllers\JobseekerController.php(204): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jsignupprocess()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 10:31:05 --> Error: Object of class CodeIgniter\Email\Email could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('SELECT *
+FROM `jobseekerlogin`
+WHERE `emailAddress` = :emailAddress:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `jobseekerlogin`
+WHERE `emailAddress` = :emailAddress:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jobseekerlogin`
+WHERE `emailAddress` = :emailAddress:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Controllers\JobseekerController.php(204): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jsignupprocess()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-02-03 10:33:46 --> Error: Object of class CodeIgniter\Email\Email could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('SELECT *
+FROM `jobseekerlogin`
+WHERE `emailAddress` = :emailAddress:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `jobseekerlogin`
+WHERE `emailAddress` = :emailAddress:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jobseekerlogin`
+WHERE `emailAddress` = :emailAddress:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Controllers\JobseekerController.php(204): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->jsignupprocess()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-02-03 12:13:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-02-03 12:13:35 --> 220 smtp.googlemail.com ESMTP j21-20020a170902c3d500b001d7610fdb7csm3137890plj.226 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [143.44.157.2]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK j21-20020a170902c3d500b001d7610fdb7csm3137890plj.226 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. j21-20020a170902c3d500b001d7610fdb7csm3137890plj.226 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. j21-20020a170902c3d500b001d7610fdb7csm3137890plj.226 - gsmtp
+
+quit: 221 2.0.0 closing connection j21-20020a170902c3d500b001d7610fdb7csm3137890plj.226 - gsmtp
+
+CRITICAL - 2024-02-03 14:03:33 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\EmployerController.php on line 79.
+ 1 APPPATH\Controllers\EmployerController.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\citypeso\\app\\Controllers\\EmployerController.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmployerController->employerLoginProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')

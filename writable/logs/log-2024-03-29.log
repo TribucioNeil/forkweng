@@ -1,0 +1,174 @@
+ERROR - 2024-03-29 06:29:15 --> mysqli_sql_exception: Unknown column 'jobseekerinfo.jobseekerId' in 'on clause' in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `jobseek...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jobseek...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jobseek...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `jobseek...', Array, false)
+#4 D:\laragon\www\citypeso\app\Controllers\AdminController.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+#6 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-03-29 06:29:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jobseekerinfo.jobseekerId' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `jobseekerperinfo`.*, `jobseekerjobpre`.*, `jobseekereducback`.*, `jobseekereligibility`.*, `jobseekerlanguage`.*, `jobseekerskills`.*, `jobseekertraining`.*, `jobseekerworkexp`.*
+FROM `jobseekerperinfo`
+JOIN `jobseekerjobpre` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerjobpre`.`jobseekerId`
+JOIN `jobseekereducback` ON `jobseekerinfo`.`jobseekerId` = `jobseekereducback`.`jobseekerId`
+JOIN `jobseekereligibility` ON `jobseekerinfo`.`jobseekerId` = `jobseekereligibility`.`jobseekerId`
+JOIN `jobseekerlanguage` ON `jobseekerinfo`.`jobseekerId` = `jobseekerlanguage`.`jobseekerId`
+JOIN `jobseekerskills` ON `jobseekerinfo`.`jobseekerId` = `jobseekerskills`.`jobseekerId`
+JOIN `jobseekertraining` ON `jobseekerinfo`.`jobseekerId` = `jobseekertraining`.`jobseekerId`
+JOIN `jobseekerworkexp` ON `jobseekerinfo`.`jobseekerId` = `jobseekerworkexp`.`jobseekerId`', [], false)
+ 2 APPPATH\Controllers\AdminController.php(58): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-29 06:29:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jobseekerinfo.jobseekerId' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jobseekerperinfo`.*, `jobseekerjobpre`.*, `jobseekereducback`.*, `jobseekereligibility`.*, `jobseekerlanguage`.*, `jobseekerskills`.*, `jobseekertraining`.*, `jobseekerworkexp`.*
+FROM `jobseekerperinfo`
+JOIN `jobseekerjobpre` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerjobpre`.`jobseekerId`
+JOIN `jobseekereducback` ON `jobseekerinfo`.`jobseekerId` = `jobseekereducback`.`jobseekerId`
+JOIN `jobseekereligibility` ON `jobseekerinfo`.`jobseekerId` = `jobseekereligibility`.`jobseekerId`
+JOIN `jobseekerlanguage` ON `jobseekerinfo`.`jobseekerId` = `jobseekerlanguage`.`jobseekerId`
+JOIN `jobseekerskills` ON `jobseekerinfo`.`jobseekerId` = `jobseekerskills`.`jobseekerId`
+JOIN `jobseekertraining` ON `jobseekerinfo`.`jobseekerId` = `jobseekertraining`.`jobseekerId`
+JOIN `jobseekerworkexp` ON `jobseekerinfo`.`jobseekerId` = `jobseekerworkexp`.`jobseekerId`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jobseekerperinfo`.*, `jobseekerjobpre`.*, `jobseekereducback`.*, `jobseekereligibility`.*, `jobseekerlanguage`.*, `jobseekerskills`.*, `jobseekertraining`.*, `jobseekerworkexp`.*
+FROM `jobseekerperinfo`
+JOIN `jobseekerjobpre` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerjobpre`.`jobseekerId`
+JOIN `jobseekereducback` ON `jobseekerinfo`.`jobseekerId` = `jobseekereducback`.`jobseekerId`
+JOIN `jobseekereligibility` ON `jobseekerinfo`.`jobseekerId` = `jobseekereligibility`.`jobseekerId`
+JOIN `jobseekerlanguage` ON `jobseekerinfo`.`jobseekerId` = `jobseekerlanguage`.`jobseekerId`
+JOIN `jobseekerskills` ON `jobseekerinfo`.`jobseekerId` = `jobseekerskills`.`jobseekerId`
+JOIN `jobseekertraining` ON `jobseekerinfo`.`jobseekerId` = `jobseekertraining`.`jobseekerId`
+JOIN `jobseekerworkexp` ON `jobseekerinfo`.`jobseekerId` = `jobseekerworkexp`.`jobseekerId`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `jobseekerperinfo`.*, `jobseekerjobpre`.*, `jobseekereducback`.*, `jobseekereligibility`.*, `jobseekerlanguage`.*, `jobseekerskills`.*, `jobseekertraining`.*, `jobseekerworkexp`.*
+FROM `jobseekerperinfo`
+JOIN `jobseekerjobpre` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerjobpre`.`jobseekerId`
+JOIN `jobseekereducback` ON `jobseekerinfo`.`jobseekerId` = `jobseekereducback`.`jobseekerId`
+JOIN `jobseekereligibility` ON `jobseekerinfo`.`jobseekerId` = `jobseekereligibility`.`jobseekerId`
+JOIN `jobseekerlanguage` ON `jobseekerinfo`.`jobseekerId` = `jobseekerlanguage`.`jobseekerId`
+JOIN `jobseekerskills` ON `jobseekerinfo`.`jobseekerId` = `jobseekerskills`.`jobseekerId`
+JOIN `jobseekertraining` ON `jobseekerinfo`.`jobseekerId` = `jobseekertraining`.`jobseekerId`
+JOIN `jobseekerworkexp` ON `jobseekerinfo`.`jobseekerId` = `jobseekerworkexp`.`jobseekerId`', [], false)
+ 4 APPPATH\Controllers\AdminController.php(58): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-29 06:29:15 --> [Caused by] mysqli_sql_exception: Unknown column 'jobseekerinfo.jobseekerId' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `jobseekerperinfo`.*, `jobseekerjobpre`.*, `jobseekereducback`.*, `jobseekereligibility`.*, `jobseekerlanguage`.*, `jobseekerskills`.*, `jobseekertraining`.*, `jobseekerworkexp`.*
+FROM `jobseekerperinfo`
+JOIN `jobseekerjobpre` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerjobpre`.`jobseekerId`
+JOIN `jobseekereducback` ON `jobseekerinfo`.`jobseekerId` = `jobseekereducback`.`jobseekerId`
+JOIN `jobseekereligibility` ON `jobseekerinfo`.`jobseekerId` = `jobseekereligibility`.`jobseekerId`
+JOIN `jobseekerlanguage` ON `jobseekerinfo`.`jobseekerId` = `jobseekerlanguage`.`jobseekerId`
+JOIN `jobseekerskills` ON `jobseekerinfo`.`jobseekerId` = `jobseekerskills`.`jobseekerId`
+JOIN `jobseekertraining` ON `jobseekerinfo`.`jobseekerId` = `jobseekertraining`.`jobseekerId`
+JOIN `jobseekerworkexp` ON `jobseekerinfo`.`jobseekerId` = `jobseekerworkexp`.`jobseekerId`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jobseekerperinfo`.*, `jobseekerjobpre`.*, `jobseekereducback`.*, `jobseekereligibility`.*, `jobseekerlanguage`.*, `jobseekerskills`.*, `jobseekertraining`.*, `jobseekerworkexp`.*
+FROM `jobseekerperinfo`
+JOIN `jobseekerjobpre` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerjobpre`.`jobseekerId`
+JOIN `jobseekereducback` ON `jobseekerinfo`.`jobseekerId` = `jobseekereducback`.`jobseekerId`
+JOIN `jobseekereligibility` ON `jobseekerinfo`.`jobseekerId` = `jobseekereligibility`.`jobseekerId`
+JOIN `jobseekerlanguage` ON `jobseekerinfo`.`jobseekerId` = `jobseekerlanguage`.`jobseekerId`
+JOIN `jobseekerskills` ON `jobseekerinfo`.`jobseekerId` = `jobseekerskills`.`jobseekerId`
+JOIN `jobseekertraining` ON `jobseekerinfo`.`jobseekerId` = `jobseekertraining`.`jobseekerId`
+JOIN `jobseekerworkexp` ON `jobseekerinfo`.`jobseekerId` = `jobseekerworkexp`.`jobseekerId`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jobseekerperinfo`.*, `jobseekerjobpre`.*, `jobseekereducback`.*, `jobseekereligibility`.*, `jobseekerlanguage`.*, `jobseekerskills`.*, `jobseekertraining`.*, `jobseekerworkexp`.*
+FROM `jobseekerperinfo`
+JOIN `jobseekerjobpre` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerjobpre`.`jobseekerId`
+JOIN `jobseekereducback` ON `jobseekerinfo`.`jobseekerId` = `jobseekereducback`.`jobseekerId`
+JOIN `jobseekereligibility` ON `jobseekerinfo`.`jobseekerId` = `jobseekereligibility`.`jobseekerId`
+JOIN `jobseekerlanguage` ON `jobseekerinfo`.`jobseekerId` = `jobseekerlanguage`.`jobseekerId`
+JOIN `jobseekerskills` ON `jobseekerinfo`.`jobseekerId` = `jobseekerskills`.`jobseekerId`
+JOIN `jobseekertraining` ON `jobseekerinfo`.`jobseekerId` = `jobseekertraining`.`jobseekerId`
+JOIN `jobseekerworkexp` ON `jobseekerinfo`.`jobseekerId` = `jobseekerworkexp`.`jobseekerId`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `jobseekerperinfo`.*, `jobseekerjobpre`.*, `jobseekereducback`.*, `jobseekereligibility`.*, `jobseekerlanguage`.*, `jobseekerskills`.*, `jobseekertraining`.*, `jobseekerworkexp`.*
+FROM `jobseekerperinfo`
+JOIN `jobseekerjobpre` ON `jobseekerperinfo`.`jobseekerId` = `jobseekerjobpre`.`jobseekerId`
+JOIN `jobseekereducback` ON `jobseekerinfo`.`jobseekerId` = `jobseekereducback`.`jobseekerId`
+JOIN `jobseekereligibility` ON `jobseekerinfo`.`jobseekerId` = `jobseekereligibility`.`jobseekerId`
+JOIN `jobseekerlanguage` ON `jobseekerinfo`.`jobseekerId` = `jobseekerlanguage`.`jobseekerId`
+JOIN `jobseekerskills` ON `jobseekerinfo`.`jobseekerId` = `jobseekerskills`.`jobseekerId`
+JOIN `jobseekertraining` ON `jobseekerinfo`.`jobseekerId` = `jobseekertraining`.`jobseekerId`
+JOIN `jobseekerworkexp` ON `jobseekerinfo`.`jobseekerId` = `jobseekerworkexp`.`jobseekerId`', [], false)
+ 5 APPPATH\Controllers\AdminController.php(58): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->jobseeker()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+ERROR - 2024-03-29 07:24:30 --> mysqli_sql_exception: Unknown column 'Others' in 'field list' in D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\citypeso\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `jobseek...', 0)
+#1 D:\laragon\www\citypeso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobseek...')
+#2 D:\laragon\www\citypeso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobseek...')
+#3 D:\laragon\www\citypeso\system\Database\BaseBuilder.php(2469): CodeIgniter\Database\BaseConnection->query('UPDATE `jobseek...', Array, false)
+#4 D:\laragon\www\citypeso\system\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\laragon\www\citypeso\system\BaseModel.php(987): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\laragon\www\citypeso\system\Model.php(807): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\laragon\www\citypeso\app\Controllers\JobseekerController.php(1005): CodeIgniter\Model->update('7', Array)
+#8 D:\laragon\www\citypeso\system\CodeIgniter.php(941): App\Controllers\JobseekerController->otherSkills()
+#9 D:\laragon\www\citypeso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+#10 D:\laragon\www\citypeso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\citypeso\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\citypeso\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-03-29 07:24:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Others' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2469): CodeIgniter\Database\BaseConnection->query('UPDATE `jobseekerskills` SET `AutoMechanic` = :AutoMechanic:, `Beautician` = :Beautician:, `CarpentryWork` = :CarpentryWork:, `ComputerLiterate` = :ComputerLiterate:, `DomesticChores` = :DomesticChores:, `Driver` = :Driver:, `Electrician` = :Electrician:, `Embroidery` = :Embroidery:, `Gardening` = :Gardening:, `Masonry` = :Masonry:, `PainterArtist` = :PainterArtist:, `PaintingJobs` = :PaintingJobs:, `Photography` = :Photography:, `Plumbing` = :Plumbing:, `SewingDresses` = :SewingDresses:, `Stenography` = :Stenography:, `Tailoring` = :Tailoring:, `Others` = :Others:
+WHERE `jobseekerskills`.`id` IN :jobseekerskills.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\JobseekerController.php(1005): CodeIgniter\Model->update('7', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->otherSkills()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-29 07:24:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Others' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobseekerskills` SET `AutoMechanic` = NULL, `Beautician` = NULL, `CarpentryWork` = NULL, `ComputerLiterate` = NULL, `DomesticChores` = NULL, `Driver` = NULL, `Electrician` = NULL, `Embroidery` = NULL, `Gardening` = NULL, `Masonry` = NULL, `PainterArtist` = NULL, `PaintingJobs` = NULL, `Photography` = NULL, `Plumbing` = NULL, `SewingDresses` = NULL, `Stenography` = NULL, `Tailoring` = NULL, `Others` = \'rthtr\'
+WHERE `jobseekerskills`.`id` IN (\'7\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobseekerskills` SET `AutoMechanic` = NULL, `Beautician` = NULL, `CarpentryWork` = NULL, `ComputerLiterate` = NULL, `DomesticChores` = NULL, `Driver` = NULL, `Electrician` = NULL, `Embroidery` = NULL, `Gardening` = NULL, `Masonry` = NULL, `PainterArtist` = NULL, `PaintingJobs` = NULL, `Photography` = NULL, `Plumbing` = NULL, `SewingDresses` = NULL, `Stenography` = NULL, `Tailoring` = NULL, `Others` = \'rthtr\'
+WHERE `jobseekerskills`.`id` IN (\'7\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2469): CodeIgniter\Database\BaseConnection->query('UPDATE `jobseekerskills` SET `AutoMechanic` = :AutoMechanic:, `Beautician` = :Beautician:, `CarpentryWork` = :CarpentryWork:, `ComputerLiterate` = :ComputerLiterate:, `DomesticChores` = :DomesticChores:, `Driver` = :Driver:, `Electrician` = :Electrician:, `Embroidery` = :Embroidery:, `Gardening` = :Gardening:, `Masonry` = :Masonry:, `PainterArtist` = :PainterArtist:, `PaintingJobs` = :PaintingJobs:, `Photography` = :Photography:, `Plumbing` = :Plumbing:, `SewingDresses` = :SewingDresses:, `Stenography` = :Stenography:, `Tailoring` = :Tailoring:, `Others` = :Others:
+WHERE `jobseekerskills`.`id` IN :jobseekerskills.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\JobseekerController.php(1005): CodeIgniter\Model->update('7', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->otherSkills()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
+CRITICAL - 2024-03-29 07:24:30 --> [Caused by] mysqli_sql_exception: Unknown column 'Others' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `jobseekerskills` SET `AutoMechanic` = NULL, `Beautician` = NULL, `CarpentryWork` = NULL, `ComputerLiterate` = NULL, `DomesticChores` = NULL, `Driver` = NULL, `Electrician` = NULL, `Embroidery` = NULL, `Gardening` = NULL, `Masonry` = NULL, `PainterArtist` = NULL, `PaintingJobs` = NULL, `Photography` = NULL, `Plumbing` = NULL, `SewingDresses` = NULL, `Stenography` = NULL, `Tailoring` = NULL, `Others` = \'rthtr\'
+WHERE `jobseekerskills`.`id` IN (\'7\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobseekerskills` SET `AutoMechanic` = NULL, `Beautician` = NULL, `CarpentryWork` = NULL, `ComputerLiterate` = NULL, `DomesticChores` = NULL, `Driver` = NULL, `Electrician` = NULL, `Embroidery` = NULL, `Gardening` = NULL, `Masonry` = NULL, `PainterArtist` = NULL, `PaintingJobs` = NULL, `Photography` = NULL, `Plumbing` = NULL, `SewingDresses` = NULL, `Stenography` = NULL, `Tailoring` = NULL, `Others` = \'rthtr\'
+WHERE `jobseekerskills`.`id` IN (\'7\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobseekerskills` SET `AutoMechanic` = NULL, `Beautician` = NULL, `CarpentryWork` = NULL, `ComputerLiterate` = NULL, `DomesticChores` = NULL, `Driver` = NULL, `Electrician` = NULL, `Embroidery` = NULL, `Gardening` = NULL, `Masonry` = NULL, `PainterArtist` = NULL, `PaintingJobs` = NULL, `Photography` = NULL, `Plumbing` = NULL, `SewingDresses` = NULL, `Stenography` = NULL, `Tailoring` = NULL, `Others` = \'rthtr\'
+WHERE `jobseekerskills`.`id` IN (\'7\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2469): CodeIgniter\Database\BaseConnection->query('UPDATE `jobseekerskills` SET `AutoMechanic` = :AutoMechanic:, `Beautician` = :Beautician:, `CarpentryWork` = :CarpentryWork:, `ComputerLiterate` = :ComputerLiterate:, `DomesticChores` = :DomesticChores:, `Driver` = :Driver:, `Electrician` = :Electrician:, `Embroidery` = :Embroidery:, `Gardening` = :Gardening:, `Masonry` = :Masonry:, `PainterArtist` = :PainterArtist:, `PaintingJobs` = :PaintingJobs:, `Photography` = :Photography:, `Plumbing` = :Plumbing:, `SewingDresses` = :SewingDresses:, `Stenography` = :Stenography:, `Tailoring` = :Tailoring:, `Others` = :Others:
+WHERE `jobseekerskills`.`id` IN :jobseekerskills.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\JobseekerController.php(1005): CodeIgniter\Model->update('7', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JobseekerController->otherSkills()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\citypeso\\public\\index.php')
